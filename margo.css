@@ -45,290 +45,288 @@ img {
     width: 6.83333%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
-  .grid-container > .sm-2-x-12 {
-    width: 15.16667%;
-    margin-left: 0.75%;
-    margin-right: 0.75%; }
-  .grid-container > .sm-3-x-12 {
-    width: 23.5%;
-    margin-left: 0.75%;
-    margin-right: 0.75%; }
-  .grid-container > .sm-4-x-12 {
-    width: 31.83333%;
-    margin-left: 0.75%;
-    margin-right: 0.75%; }
-  .grid-container > .sm-5-x-12 {
-    width: 40.16667%;
-    margin-left: 0.75%;
-    margin-right: 0.75%; }
-  .grid-container > .sm-6-x-12 {
-    width: 48.5%;
-    margin-left: 0.75%;
-    margin-right: 0.75%; }
-  .grid-container > .sm-7-x-12 {
-    width: 56.83333%;
-    margin-left: 0.75%;
-    margin-right: 0.75%; }
-  .grid-container > .sm-8-x-12 {
-    width: 65.16667%;
-    margin-left: 0.75%;
-    margin-right: 0.75%; }
-  .grid-container > .sm-9-x-12 {
-    width: 73.5%;
-    margin-left: 0.75%;
-    margin-right: 0.75%; }
-  .grid-container > .sm-10-x-12 {
-    width: 81.83333%;
-    margin-left: 0.75%;
-    margin-right: 0.75%; }
-  .grid-container > .sm-11-x-12 {
-    width: 90.16667%;
-    margin-left: 0.75%;
-    margin-right: 0.75%; }
-  .grid-container > .sm-12-x-12 {
-    width: 98.5%;
-    margin-left: 0.75%;
-    margin-right: 0.75%; }
-  @media screen and (min-width: 750px) {
-    .grid-container > .md-1-x-12 {
-      width: 6.83333%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .md-2-x-12 {
-      width: 15.16667%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .md-3-x-12 {
-      width: 23.5%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .md-4-x-12 {
-      width: 31.83333%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .md-5-x-12 {
-      width: 40.16667%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .md-6-x-12 {
-      width: 48.5%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .md-7-x-12 {
-      width: 56.83333%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .md-8-x-12 {
-      width: 65.16667%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .md-9-x-12 {
-      width: 73.5%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .md-10-x-12 {
-      width: 81.83333%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .md-11-x-12 {
-      width: 90.16667%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .md-12-x-12 {
-      width: 98.5%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; } }
-  @media screen and (min-width: 1000px) {
-    .grid-container > .lg-1-x-12 {
-      width: 6.83333%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .lg-2-x-12 {
-      width: 15.16667%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .lg-3-x-12 {
-      width: 23.5%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .lg-4-x-12 {
-      width: 31.83333%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .lg-5-x-12 {
-      width: 40.16667%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .lg-6-x-12 {
-      width: 48.5%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .lg-7-x-12 {
-      width: 56.83333%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .lg-8-x-12 {
-      width: 65.16667%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .lg-9-x-12 {
-      width: 73.5%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .lg-10-x-12 {
-      width: 81.83333%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .lg-11-x-12 {
-      width: 90.16667%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; }
-    .grid-container > .lg-12-x-12 {
-      width: 98.5%;
-      margin-left: 0.75%;
-      margin-right: 0.75%; } }
   .grid-container.adjacent > .sm-1-x-12 {
     width: 8.33333%;
     margin-left: 0;
     margin-right: 0; }
+  .grid-container > .sm-2-x-12 {
+    width: 15.16667%;
+    margin-left: 0.75%;
+    margin-right: 0.75%; }
   .grid-container.adjacent > .sm-2-x-12 {
     width: 16.66667%;
     margin-left: 0;
     margin-right: 0; }
+  .grid-container > .sm-3-x-12 {
+    width: 23.5%;
+    margin-left: 0.75%;
+    margin-right: 0.75%; }
   .grid-container.adjacent > .sm-3-x-12 {
     width: 25%;
     margin-left: 0;
     margin-right: 0; }
+  .grid-container > .sm-4-x-12 {
+    width: 31.83333%;
+    margin-left: 0.75%;
+    margin-right: 0.75%; }
   .grid-container.adjacent > .sm-4-x-12 {
     width: 33.33333%;
     margin-left: 0;
     margin-right: 0; }
+  .grid-container > .sm-5-x-12 {
+    width: 40.16667%;
+    margin-left: 0.75%;
+    margin-right: 0.75%; }
   .grid-container.adjacent > .sm-5-x-12 {
     width: 41.66667%;
     margin-left: 0;
     margin-right: 0; }
+  .grid-container > .sm-6-x-12 {
+    width: 48.5%;
+    margin-left: 0.75%;
+    margin-right: 0.75%; }
   .grid-container.adjacent > .sm-6-x-12 {
     width: 50%;
     margin-left: 0;
     margin-right: 0; }
+  .grid-container > .sm-7-x-12 {
+    width: 56.83333%;
+    margin-left: 0.75%;
+    margin-right: 0.75%; }
   .grid-container.adjacent > .sm-7-x-12 {
     width: 58.33333%;
     margin-left: 0;
     margin-right: 0; }
+  .grid-container > .sm-8-x-12 {
+    width: 65.16667%;
+    margin-left: 0.75%;
+    margin-right: 0.75%; }
   .grid-container.adjacent > .sm-8-x-12 {
     width: 66.66667%;
     margin-left: 0;
     margin-right: 0; }
+  .grid-container > .sm-9-x-12 {
+    width: 73.5%;
+    margin-left: 0.75%;
+    margin-right: 0.75%; }
   .grid-container.adjacent > .sm-9-x-12 {
     width: 75%;
     margin-left: 0;
     margin-right: 0; }
+  .grid-container > .sm-10-x-12 {
+    width: 81.83333%;
+    margin-left: 0.75%;
+    margin-right: 0.75%; }
   .grid-container.adjacent > .sm-10-x-12 {
     width: 83.33333%;
     margin-left: 0;
     margin-right: 0; }
+  .grid-container > .sm-11-x-12 {
+    width: 90.16667%;
+    margin-left: 0.75%;
+    margin-right: 0.75%; }
   .grid-container.adjacent > .sm-11-x-12 {
     width: 91.66667%;
     margin-left: 0;
     margin-right: 0; }
+  .grid-container > .sm-12-x-12 {
+    width: 98.5%;
+    margin-left: 0.75%;
+    margin-right: 0.75%; }
   .grid-container.adjacent > .sm-12-x-12 {
     width: 100%;
     margin-left: 0;
     margin-right: 0; }
   @media screen and (min-width: 750px) {
+    .grid-container > .md-1-x-12 {
+      width: 6.83333%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-1-x-12 {
       width: 8.33333%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .md-2-x-12 {
+      width: 15.16667%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-2-x-12 {
       width: 16.66667%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .md-3-x-12 {
+      width: 23.5%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-3-x-12 {
       width: 25%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .md-4-x-12 {
+      width: 31.83333%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-4-x-12 {
       width: 33.33333%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .md-5-x-12 {
+      width: 40.16667%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-5-x-12 {
       width: 41.66667%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .md-6-x-12 {
+      width: 48.5%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-6-x-12 {
       width: 50%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .md-7-x-12 {
+      width: 56.83333%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-7-x-12 {
       width: 58.33333%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .md-8-x-12 {
+      width: 65.16667%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-8-x-12 {
       width: 66.66667%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .md-9-x-12 {
+      width: 73.5%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-9-x-12 {
       width: 75%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .md-10-x-12 {
+      width: 81.83333%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-10-x-12 {
       width: 83.33333%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .md-11-x-12 {
+      width: 90.16667%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-11-x-12 {
       width: 91.66667%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .md-12-x-12 {
+      width: 98.5%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .md-12-x-12 {
       width: 100%;
       margin-left: 0;
       margin-right: 0; } }
   @media screen and (min-width: 1000px) {
+    .grid-container > .lg-1-x-12 {
+      width: 6.83333%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-1-x-12 {
       width: 8.33333%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .lg-2-x-12 {
+      width: 15.16667%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-2-x-12 {
       width: 16.66667%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .lg-3-x-12 {
+      width: 23.5%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-3-x-12 {
       width: 25%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .lg-4-x-12 {
+      width: 31.83333%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-4-x-12 {
       width: 33.33333%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .lg-5-x-12 {
+      width: 40.16667%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-5-x-12 {
       width: 41.66667%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .lg-6-x-12 {
+      width: 48.5%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-6-x-12 {
       width: 50%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .lg-7-x-12 {
+      width: 56.83333%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-7-x-12 {
       width: 58.33333%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .lg-8-x-12 {
+      width: 65.16667%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-8-x-12 {
       width: 66.66667%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .lg-9-x-12 {
+      width: 73.5%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-9-x-12 {
       width: 75%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .lg-10-x-12 {
+      width: 81.83333%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-10-x-12 {
       width: 83.33333%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .lg-11-x-12 {
+      width: 90.16667%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-11-x-12 {
       width: 91.66667%;
       margin-left: 0;
       margin-right: 0; }
+    .grid-container > .lg-12-x-12 {
+      width: 98.5%;
+      margin-left: 0.75%;
+      margin-right: 0.75%; }
     .grid-container.adjacent > .lg-12-x-12 {
       width: 100%;
       margin-left: 0;
@@ -343,12 +341,6 @@ body {
   /* equivalent to 16px */
   line-height: 1.25;
   /* equivalent to 20px */ }
-  @media screen and (min-width: 750px) {
-    body {
-      font-size: 1rem;
-      /* equivalent to 16px */
-      line-height: 1.625;
-      /* equivalent to 22px */ } }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem; }
@@ -358,77 +350,83 @@ h1 {
   /* 2x body copy size = 32px */
   line-height: 1.25;
   /* 45px / 36px */ }
-  @media screen and (min-width: 750px) {
-    h1 {
-      font-size: 2.5rem;
-      /* 2.5x body copy size = 40px */
-      line-height: 1.125; } }
-  @media screen and (min-width: 1000px) {
-    h1 {
-      font-size: 3rem;
-      /* 3x body copy size = 48px */
-      line-height: 1.05;
-      /* keep to a multiple of the 20px line height 
-      and something more appropriate for display headings */ } }
 
 h2 {
   font-size: 1.625rem;
   /* 2x body copy size = 32px */
   line-height: 1.1538;
   /* 45px / 36px */ }
-  @media screen and (min-width: 750px) {
-    h2 {
-      font-size: 2rem;
-      /* 2.5x body copy size = 40px */
-      line-height: 1.25; } }
-  @media screen and (min-width: 1000px) {
-    h2 {
-      font-size: 2.25rem;
-      /* 3x body copy size = 48px */
-      line-height: 1.25;
-      /* keep to a multiple of the 20px line height 
-      and something more appropriate for display headings */ } }
 
 h3 {
   font-size: 1.375rem;
   /* 2x body copy size = 32px */
   line-height: 1.136363;
   /* 45px / 36px */ }
-  @media screen and (min-width: 750px) {
-    h3 {
-      font-size: 1.5rem;
-      /* 2.5x body copy size = 40px */
-      line-height: 1.125; } }
-  @media screen and (min-width: 1000px) {
-    h3 {
-      font-size: 1.75rem;
-      /* 3x body copy size = 48px */
-      line-height: 1.05;
-      /* keep to a multiple of the 20px line height 
-      and something more appropriate for display headings */ } }
 
 h4 {
   font-size: 1.125rem;
   /* 2x body copy size = 32px */
   line-height: 1.136363;
   /* 45px / 36px */ }
-  @media screen and (min-width: 750px) {
-    h4 {
-      font-size: 1.125rem;
-      /* 2.5x body copy size = 40px */
-      line-height: 1.222222; } }
-  @media screen and (min-width: 1000px) {
-    h4 {
-      font-size: 1.125rem;
-      /* 3x body copy size = 48px */
-      line-height: 1.222222;
-      /* keep to a multiple of the 20px line height 
-      and something more appropriate for display headings */ } }
 
 p {
   margin-bottom: 1.5rem;
   font-weight: 400; }
 
+@media screen and (min-width: 750px) {
+  body {
+    font-size: 1rem;
+    /* equivalent to 16px */
+    line-height: 1.625;
+    /* equivalent to 22px */ }
+
+  h1 {
+    font-size: 2.5rem;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.125; }
+
+  h2 {
+    font-size: 2rem;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.25; }
+
+  h3 {
+    font-size: 1.5rem;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.125; }
+
+  h4 {
+    font-size: 1.125rem;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.222222; } }
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height 
+    and something more appropriate for display headings */ }
+
+  h2 {
+    font-size: 2.25rem;
+    /* 3x body copy size = 48px */
+    line-height: 1.25;
+    /* keep to a multiple of the 20px line height 
+    and something more appropriate for display headings */ }
+
+  h3 {
+    font-size: 1.75rem;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height 
+    and something more appropriate for display headings */ }
+
+  h4 {
+    font-size: 1.125rem;
+    /* 3x body copy size = 48px */
+    line-height: 1.222222;
+    /* keep to a multiple of the 20px line height 
+    and something more appropriate for display headings */ } }
 mark {
   background: #f7ca18;
   padding: 0 .2em; }
@@ -546,8 +544,23 @@ form.form-group {
 aside {
   padding: 1.5rem;
   border-bottom: 1px solid #bfbfbf; }
+  aside .sidebar-title {
+    margin: 0; }
+  aside .sidebar-content .sidebar-topic, aside .sidebar-content .sidebar-subtopic {
+    display: block;
+    text-decoration: none; }
+    aside .sidebar-content .sidebar-topic:hover, aside .sidebar-content .sidebar-subtopic:hover {
+      color: #bfbfbf; }
+  aside .sidebar-content .sidebar-topic {
+    padding: 0.25rem 0 0.25rem 1rem;
+    margin-top: 1.25rem; }
+  aside .sidebar-content .sidebar-subtopic {
+    font-size: .875rem;
+    margin-top: .5rem;
+    padding: .25rem 0 .25rem 1.75rem; }
   @media screen and (min-width: 750px) {
     aside {
+      margin-top: .5rem;
       border-right: 1px solid #bfbfbf;
       border-bottom: 0;
       position: fixed;
@@ -576,69 +589,46 @@ aside {
         aside.sidebar-lg + * {
           position: relative;
           width: 100%;
-          padding-left: 350px; } }
-  aside .sidebar-title {
-    margin: 0; }
-  aside .sidebar-content .sidebar-topic {
-    padding: 0.25rem 0 0.25rem 1rem;
-    margin-top: 1.25rem; }
-    @media screen and (min-width: 750px) {
+          padding-left: 350px; }
       aside .sidebar-content .sidebar-topic {
         padding: 0 0 0 1rem;
-        margin-top: 1.25rem; } }
-  aside .sidebar-content .sidebar-subtopic {
-    font-size: .875rem;
-    margin-top: .5rem;
-    padding: .25rem 0 .25rem 1.75rem; }
-    @media screen and (min-width: 750px) {
+        margin-top: 1.25rem; }
       aside .sidebar-content .sidebar-subtopic {
         margin-top: .5rem;
         padding: 0 0 0 1.75rem; } }
-  @media screen and (min-width: 750px) {
-    aside .sidebar-content {
-      margin-top: .5rem; } }
-  aside .sidebar-content .sidebar-topic, aside .sidebar-content .sidebar-subtopic {
-    display: block;
-    text-decoration: none; }
-    aside .sidebar-content .sidebar-topic:hover, aside .sidebar-content .sidebar-subtopic:hover {
-      color: #bfbfbf; }
 
 .hero {
   width: 100%;
   background: #eeeeee;
   padding: 30px 0;
   min-height: 270px; }
-  @media screen and (min-width: 750px) {
-    .hero {
-      min-height: 400px;
-      padding: 55px 0; } }
-  @media screen and (min-width: 1000px) {
-    .hero {
-      padding: 100px 0;
-      min-height: 500px; } }
   .hero .title,
   .hero .subtitle {
     margin: .5rem 0; }
+  .hero .subtitle {
+    margin: .5rem 0 1.25rem 0; }
   .hero .title {
     font-size: 2.5rem;
     /* 2x body copy size = 32px */
     line-height: 1.25;
     /* 45px / 36px */
     margin: .5rem 0; }
-    @media screen and (min-width: 750px) {
+  @media screen and (min-width: 750px) {
+    .hero {
+      min-height: 400px;
+      padding: 55px 0; }
       .hero .title {
         font-size: 3.125rem;
         /* 2.5x body copy size = 40px */
         line-height: 1.125; } }
-    @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1000px) {
+    .hero {
+      padding: 100px 0;
+      min-height: 500px; }
       .hero .title {
         font-size: 4rem;
         /* 3x body copy size = 48px */
-        line-height: 1.05;
-        /* keep to a multiple of the 20px line height 
-        and something more appropriate for display headings */ } }
-  .hero .subtitle {
-    margin: .5rem 0 1.25rem 0; }
+        line-height: 1.05; } }
 
 .nav-bar {
   width: 100%;

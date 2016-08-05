@@ -27,38 +27,22 @@
   
   @for $i from 1 through 12{
     > .sm-#{$i}-x-12{width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
+    &.adjacent > .sm-#{$i}-x-12{width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
+
   }    
 
   @include media-query($med-screen){
     @for $i from 1 through 12{
        > .md-#{$i}-x-12{width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
+       &.adjacent > .md-#{$i}-x-12{width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
+
     }  
   }
 
   @include media-query($lg-screen){
     @for $i from 1 through 12{
        > .lg-#{$i}-x-12{width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
+       &.adjacent > .lg-#{$i}-x-12{width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
     }  
   }
-
-
-  &.adjacent{
-    @for $i from 1 through 12{
-        > .sm-#{$i}-x-12{width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
-      }
-
-    @include media-query($med-screen){
-      @for $i from 1 through 12{
-        > .md-#{$i}-x-12{width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
-      }
-    }
-
-    @include media-query($lg-screen){
-      @for $i from 1 through 12{
-
-        > .lg-#{$i}-x-12{width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
-      }
-    }
-  }
-
 }

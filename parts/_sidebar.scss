@@ -1,8 +1,36 @@
 aside{
   padding: 1.5rem;
   border-bottom: 1px solid $med-gray;
-  
+
+  .sidebar-title{
+    margin: 0;
+  }
+ 
+  .sidebar-content{
+    .sidebar-topic, .sidebar-subtopic{
+      display: block;
+      text-decoration: none;
+      &:hover{   
+        color: $med-gray;
+      }
+    }
+
+    .sidebar-topic{
+      padding: .25rem 0 .25rem 1rem ;
+      margin-top: 1.25rem;
+    }
+
+    .sidebar-subtopic{
+        font-size: .875rem;
+        margin-top: .5rem;
+        padding: .25rem 0 .25rem 1.75rem;
+    }
+
+     
+  }
+
   @include media-query($med-screen){
+    margin-top: .5rem;   
     border-right: 1px solid $med-gray;
     border-bottom: 0;
     position: fixed;
@@ -44,47 +72,18 @@ aside{
         padding-left: 350px;
       }
     }
-  }
 
-  .sidebar-title{
-    margin: 0;
-  }
- 
-  .sidebar-content{
-
-    .sidebar-topic{
-      padding: .25rem 0 .25rem 1rem ;
-      margin-top: 1.25rem;
-      @include media-query($med-screen){
+    .sidebar-content{
+      .sidebar-topic{
         padding: 0 0 0 1rem ;
         margin-top: 1.25rem;
       }
-    }
 
-    .sidebar-subtopic{
-        font-size: .875rem;
+      .sidebar-subtopic{
         margin-top: .5rem;
-        padding: .25rem 0 .25rem 1.75rem;
-        @include media-query($med-screen){
-          margin-top: .5rem;
-          padding: 0 0 0 1.75rem;
-        }
-    }
-
-    @include media-query($med-screen){
-       margin-top: .5rem;   
-    }
-
-
-
-      .sidebar-topic, .sidebar-subtopic{
-        display: block;
-        text-decoration: none;
-        &:hover{
-          
-          color: $med-gray;
-        }
+        padding: 0 0 0 1.75rem;
       }
     }
+  }
 
 }
