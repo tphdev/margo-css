@@ -636,8 +636,8 @@ aside {
   width: 100%;
   background: #fff;
   z-index: 99;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   padding: 0;
   position: relative;
   height: 60px; }
@@ -683,6 +683,7 @@ aside {
       font-size: 1rem; }
       .nav-bar .nav-list > *:hover, .nav-bar .nav-list > *:active {
         background: #eeeeee;
+        border-bottom: 2px solid #eeeeee;
         outline: 0; }
     @media screen and (min-width: 750px) {
       .nav-bar .nav-list {
@@ -734,9 +735,9 @@ aside {
         top: 0px;
         position: relative; } }
   .nav-bar input.hamburger-toggler:hover ~ .hamburger-menu > span.line {
-    background: #d2d7d3; }
+    background: #bfbfbf; }
   .nav-bar input.hamburger-toggler:checked ~ .hamburger-menu > span.line {
-    background: #d2d7d3; }
+    background: #bfbfbf; }
     .nav-bar input.hamburger-toggler:checked ~ .hamburger-menu > span.line:nth-child(1) {
       top: 50%;
       left: 0;
@@ -750,7 +751,7 @@ aside {
       left: 0;
       transform: translate(0, -50%) rotate(-45deg); }
   .nav-bar input.hamburger-toggler:hover:checked ~ .hamburger-menu > span.line {
-    background: #95A5A6; }
+    background: #333; }
 
 .hamburger-menu {
   position: absolute;
