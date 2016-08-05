@@ -579,16 +579,24 @@ aside {
           padding-left: 350px; } }
   aside .sidebar-title {
     margin: 0; }
-  @media screen and (min-width: 750px) {
-    aside .sidebar-content {
-      margin-top: .5rem; } }
   aside .sidebar-content .sidebar-topic {
-    padding: 0 1rem;
+    padding: 0.25rem 0 0.25rem 1rem;
     margin-top: 1.25rem; }
+    @media screen and (min-width: 750px) {
+      aside .sidebar-content .sidebar-topic {
+        padding: 0 0 0 1rem;
+        margin-top: 1.25rem; } }
   aside .sidebar-content .sidebar-subtopic {
     font-size: .875rem;
     margin-top: .5rem;
-    padding-left: 1.75rem; }
+    padding: .25rem 0 .25rem 1.75rem; }
+    @media screen and (min-width: 750px) {
+      aside .sidebar-content .sidebar-subtopic {
+        margin-top: .5rem;
+        padding: 0 0 0 1.75rem; } }
+  @media screen and (min-width: 750px) {
+    aside .sidebar-content {
+      margin-top: .5rem; } }
   aside .sidebar-content .sidebar-topic, aside .sidebar-content .sidebar-subtopic {
     display: block;
     text-decoration: none; }
