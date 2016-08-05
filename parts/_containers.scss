@@ -2,7 +2,7 @@
 /* Body Content - container */
 
 .container-narrow{
-  max-width: 960px;
+  max-width: $container-content-width;
   padding: 0 5px;
   margin: 0 auto;
   width: 95%;
