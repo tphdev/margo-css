@@ -1,6 +1,6 @@
 {
   "name": "margo-css",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "lightweight css framework for building responsive web sites",
   "main": "index.js",
   "scripts": {
