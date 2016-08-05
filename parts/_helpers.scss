@@ -64,3 +64,10 @@ a.bg-fail,
   background: $bg-fail-color;
 }
 
+button.bg-disabled, 
+a.bg-disabled,
+.bg-disabled{
+  background: $bg-disabled-color;
+  opacity: $bg-disabled-opacity;
+}
+

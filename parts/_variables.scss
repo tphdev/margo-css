@@ -11,9 +11,6 @@ $dark-primary: rgba(44, 62, 80, 1.0);
 
 $light-primary: rgba(92, 151, 191, 1.0);
 
-$secondary-color: #96281B;
-$translucent-secondary: rgba(231, 76, 60, .33);
-
 
 $dark-gray: #95A5A6;
 $faint-gray: rgba(238, 238, 238,1);
@@ -29,10 +26,18 @@ $med-gray-translucent: rgba(191, 191, 191, .5);
 $code-color: #96281B;
 $highlight-color: rgba(247, 202, 24, 1.0);
 
-$bg-success-color: #86E2D5;
-$bg-info-color: #89C4F4;
-$bg-warn-color: #F4B350;
-$bg-fail-color: #E26A6A;
+$success-color: #019875;
+$info-color:    #5C97BF;
+$warn-color:    #F4B350;
+$fail-color:    #E26A6A;
+
+$bg-success-color: #d8f6f2;
+$bg-info-color:    #cfe7fb;
+$bg-warn-color:    #faddb0;
+$bg-fail-color:    #f3bfbf;
+
+$bg-disabled-color: $light-gray;
+$bg-disabled-opacity: .4;
 
 $bg-inverted-color: #333;
 $inverted-font-color: #fff;

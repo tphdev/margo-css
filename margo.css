@@ -991,19 +991,25 @@ a.bg-inverted,
 button.bg-success,
 a.bg-success,
 .bg-success {
-  background: #86E2D5; }
+  background: #d8f6f2; }
 
 button.bg-info,
 a.bg-info,
 .bg-info {
-  background: #89C4F4; }
+  background: #cfe7fb; }
 
 button.bg-warn,
 a.bg-warn,
 .bg-warn {
-  background: #F4B350; }
+  background: #faddb0; }
 
 button.bg-fail,
 a.bg-fail,
 .bg-fail {
-  background: #E26A6A; }
+  background: #f3bfbf; }
+
+button.bg-disabled,
+a.bg-disabled,
+.bg-disabled {
+  background: #d2d7d3;
+  opacity: 0.4; }
