@@ -1,0 +1,58 @@
+form.form-group{
+  display: block;
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  select{
+    padding: 0 .75rem;
+    height: 2.5rem;
+
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  select,
+  textarea{
+    width: 100%;
+    line-height: 1.5;
+    outline: 0;
+    border: $med-gray 1px solid;
+    font-size: 1rem;
+    border-radius: $site-border-radius;
+    margin-bottom: 1.25rem;
+    background: #fff;
+
+    &:focus{
+      border: 1px solid $light-primary;
+    }
+  }
+
+  textarea{
+    padding: .5rem .75rem;
+    &:focus{
+      border: 1px solid $light-primary;
+    }
+  }
+
+  .form-field{
+    display: inline-block;
+    label{
+      display: block;
+      font-weight: 700;
+      margin-bottom: .5rem;
+    }
+
+    input[type='text'],
+    input[type='email'],
+    input[type='password'],
+    select,
+    textarea{
+      display: block;
+    }
+  }
+
+}
+
+

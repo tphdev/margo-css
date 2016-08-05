@@ -1,0 +1,47 @@
+
+$med-screen:  750px;
+$lg-screen:   1000px;
+
+
+// Color Scheme Variables
+$primary-color: rgba(58, 83, 155, 1.0);
+$primary-color-tranlucent: rgba(58, 83, 155, .22);
+$dark-primary: rgba(44, 62, 80, 1.0);
+
+$light-primary: rgba(92, 151, 191, 1.0);
+
+$secondary-color: #96281B;
+$translucent-secondary: rgba(231, 76, 60, .33);
+
+
+$dark-gray: #95A5A6;
+$faint-gray: rgba(238, 238, 238,1);
+$faint-gray-tranlucent: rgba(238, 238, 238, .5);
+$light-gray: rgba(210, 215, 211, 1);
+$light-gray-translucent: rgba(210, 215, 211, .5);
+
+$med-gray: rgba(191, 191, 191, 1);
+$med-gray-translucent: rgba(191, 191, 191, .5);
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+$code-color: #96281B;
+$highlight-color: rgba(247, 202, 24, 1.0);
+
+$bg-success-color: #86E2D5;
+$bg-info-color: #89C4F4;
+$bg-warn-color: #F4B350;
+$bg-fail-color: #E26A6A;
+
+$bg-inverted-color: #333;
+$inverted-font-color: #fff;
+
+$txt-muted-color: $dark-gray; 
+
+// Nav Variables
+$nav-height: 80;
+$nav-height-mobile: $nav-height * .75;
+$hamburger-line-color: #333;
+$hamburger-hover-color: $light-gray; 
+
+$site-border-radius: 2px;

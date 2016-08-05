@@ -1,0 +1,64 @@
+// =========================
+// Grid
+.grid-container {
+  $col-1: 1/12;
+  $col-2: 2/12;
+  $col-3: 3/12;
+  $col-4: 4/12;
+  $col-5: 5/12;
+  $col-6: 6/12;
+  $col-7: 7/12;
+  $col-8: 8/12;
+  $col-9: 9/12;
+  $col-10: 10/8;
+  $col-11: 11/12;
+  $col-12: 12/12;
+  
+  font-size: 0;
+  
+  > * {
+    display: inline-block;
+    font-size: medium;
+    vertical-align: top;
+    width: 100%;
+  }
+  
+  $gutter-size: 1.5/100;
+  
+  @for $i from 1 through 12{
+    > .sm-#{$i}-x-12{width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
+  }    
+
+  @include media-query($med-screen){
+    @for $i from 1 through 12{
+       > .md-#{$i}-x-12{width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
+    }  
+  }
+
+  @include media-query($lg-screen){
+    @for $i from 1 through 12{
+       > .lg-#{$i}-x-12{width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
+    }  
+  }
+
+
+  &.adjacent{
+    @for $i from 1 through 12{
+        > .sm-#{$i}-x-12{width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
+      }
+
+    @include media-query($med-screen){
+      @for $i from 1 through 12{
+        > .md-#{$i}-x-12{width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
+      }
+    }
+
+    @include media-query($lg-screen){
+      @for $i from 1 through 12{
+
+        > .lg-#{$i}-x-12{width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
+      }
+    }
+  }
+
+}

@@ -1,0 +1,18 @@
+// =========================
+/* Body Content - container */
+
+.container-narrow{
+  max-width: 960px;
+  padding: 0 5px;
+  margin: 0 auto;
+  width: 95%;
+  @include media-query($med-screen){ width: 95%; }
+  @include media-query($lg-screen){ width: 90%; }
+  .container-narrow{
+    width: 100%;
+  }
+}
+
+.container-full{
+  width: 100%;
+}

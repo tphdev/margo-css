@@ -1,0 +1,49 @@
+
+// =========================
+// Button styles
+
+input,
+input[type='button'], 
+input[type='submit']{
+  -webkit-appearance: none;
+}
+
+button, button.btn, input[type='button'], input[type='submit'], a.btn{
+  display: inline-block;
+  text-decoration: none;
+  background: #fff;
+  margin-bottom: .5rem;
+  outline: 0;
+  border: 1px solid #333;
+  line-height: 2.5rem;
+  padding: 0 1rem;
+  border-radius: 2px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+  
+  &.sm { font-size: .75rem; line-height: 1.875rem; }
+  &.lg { 
+    font-size: 1.5rem; 
+    line-height: 3.75rem; 
+    padding: 0 1.25rem;
+
+    @include media-query($med-screen){
+      padding: 0 1.5rem;
+
+    }
+  } 
+
+  &:hover{
+    background: $light-gray;
+  }
+
+  &.primary{
+    background: $primary-color;
+    color:#fff;
+
+    &:hover{
+      background: $light-primary;
+    }
+  }
+}

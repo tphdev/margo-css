@@ -1,0 +1,44 @@
+
+
+// =========================
+// Thumbnail Card
+
+figure.tn-card{
+  max-width: 270px;
+  margin: .5rem auto;
+  border: $med-gray 1px solid;
+  box-shadow: 0 1px 2px 0 $med-gray-translucent;
+  border-radius: 3px;
+  position: relative;
+
+
+  > img.card-image, img{
+    width: 100%;
+    display: block;
+
+  }
+
+  > figcaption{
+    padding: .75rem .5rem;
+    line-height: 1.25;
+
+    > *:first-child{
+      margin-top: 0;
+    }
+    > *:last-child{
+      margin-bottom: 0; 
+    }
+
+    h1,h2,h3,h4,h5,h6,p{
+      margin: .625rem 0;
+    }
+    
+  }
+
+  > figcaption.more-info{
+    border-top: 1px solid $med-gray;
+    padding: .5rem .5rem;
+    font-size: .75rem;
+    color: $dark-gray;
+  }
+}

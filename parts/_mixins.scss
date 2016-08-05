@@ -1,0 +1,18 @@
+/*
+** Sane Defaults
+*/
+
+@mixin media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
+
+@mixin overlay-style($width,$height,$z-index){
+  position: absolute;
+  width: $width;
+  height: $height;
+  z-index: $z-index;
+  @content;
+}

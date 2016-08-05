@@ -1,0 +1,122 @@
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+  font-weight: 400;
+}
+
+
+
+body {
+  font-size: 1rem; /* equivalent to 16px */
+  line-height: 1.25; /* equivalent to 20px */
+  
+  @include media-query($med-screen){
+    font-size: 1rem; /* equivalent to 16px */
+    line-height: 1.625; /* equivalent to 22px */
+  }
+}
+
+// =========================
+// Typography
+
+h1,h2,h3,h4,h5,h6{
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;/* 2x body copy size = 32px */
+  line-height: 1.25; /* 45px / 36px */
+  
+  @include media-query($med-screen){
+    font-size: 2.5rem;  /* 2.5x body copy size = 40px */
+    line-height: 1.125;
+  }
+
+  @include media-query($lg-screen){
+    font-size: 3rem;     /* 3x body copy size = 48px */
+    line-height: 1.05; 
+      /* keep to a multiple of the 20px line height 
+      and something more appropriate for display headings */
+  }
+}
+
+h2 {
+  font-size: 1.625rem;/* 2x body copy size = 32px */
+  line-height: 1.1538; /* 45px / 36px */
+  
+  @include media-query($med-screen){
+    font-size: 2rem;  /* 2.5x body copy size = 40px */
+    line-height: 1.25;
+  }
+
+  @include media-query($lg-screen){
+    font-size: 2.25rem;     /* 3x body copy size = 48px */
+    line-height: 1.25; 
+      /* keep to a multiple of the 20px line height 
+      and something more appropriate for display headings */
+  }
+}
+
+h3 {
+  font-size: 1.375rem;/* 2x body copy size = 32px */
+  line-height: 1.136363; /* 45px / 36px */
+  
+  @include media-query($med-screen){
+    font-size: 1.5rem;  /* 2.5x body copy size = 40px */
+    line-height: 1.125;
+  }
+
+  @include media-query($lg-screen){
+    font-size: 1.75rem;     /* 3x body copy size = 48px */
+    line-height: 1.05; 
+      /* keep to a multiple of the 20px line height 
+      and something more appropriate for display headings */
+  }
+}
+
+h4 {
+  font-size: 1.125rem;/* 2x body copy size = 32px */
+  line-height: 1.136363; /* 45px / 36px */
+  
+  @include media-query($med-screen){
+    font-size: 1.125rem;  /* 2.5x body copy size = 40px */
+    line-height: 1.222222;
+  }
+
+  @include media-query($lg-screen){
+    font-size: 1.125rem;     /* 3x body copy size = 48px */
+    line-height: 1.222222; 
+      /* keep to a multiple of the 20px line height 
+      and something more appropriate for display headings */
+  }
+}
+
+p{
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+// =========================
+// Text Formatting
+
+mark{
+  background: $highlight-color;
+  padding: 0 .2em;
+}
+
+small{
+  font-size: .75rem;
+}
+
+a {
+  color: $light-primary;
+  cursor: pointer;
+
+  &:hover{
+    color: $primary-color;
+  }
+}
+
+del {
+  text-decoration: line-through;
+}

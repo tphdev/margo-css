@@ -1,0 +1,52 @@
+
+// =========================
+// Table
+
+div.table-full-width{
+  overflow: scroll;
+  > table{
+    width: 100%;
+
+  }
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: 1rem 0; 
+
+  th:first-child,
+  td:first-child{
+    padding-left: .375rem;
+  }
+
+    
+  th,
+  td {
+    text-align: left;
+    padding: .75rem 0 .75rem 2rem;
+    @for $i from 1 through 10{
+      &.tcol-#{$i}rem { width: #{$i}rem; }
+    } 
+
+    @include media-query($med-screen){
+      @for $i from 1 through 10{
+        &.tcol-#{$i}rem { width: inherit; }
+      } 
+    }  
+  }
+  
+  thead th{
+    border-bottom: $dark-gray 1px solid;
+  }
+
+  tbody td{
+    border-bottom: $dark-gray 1px solid;
+  }
+  &.striped{
+    tbody tr:nth-child(2n){
+      background: $faint-gray;
+    }
+  }
+
+}

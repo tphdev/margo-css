@@ -1,0 +1,45 @@
+
+.hero{
+  width: 100%;
+  background: $faint-gray;
+  padding: 30px 0;
+  min-height: 270px;
+
+  @include media-query($med-screen){
+    min-height: 400px;
+    padding: 55px 0;
+  }
+
+  @include media-query($lg-screen){
+    padding: 100px 0;
+    min-height: 500px;
+
+  }
+
+  .title,
+  .subtitle{
+    margin: .5rem 0;
+  }
+
+  .title {
+    font-size: 2.5rem;/* 2x body copy size = 32px */
+    line-height: 1.25; /* 45px / 36px */
+    
+    margin: .5rem 0;
+
+    @include media-query($med-screen){
+      font-size: 3.125rem;  /* 2.5x body copy size = 40px */
+      line-height: 1.125;
+    }
+
+    @include media-query($lg-screen){
+      font-size: 4rem;     /* 3x body copy size = 48px */
+      line-height: 1.05; 
+        /* keep to a multiple of the 20px line height 
+        and something more appropriate for display headings */
+    }
+  }
+  .subtitle{
+    margin: .5rem 0 1.25rem 0;
+  }
+}

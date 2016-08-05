@@ -1,0 +1,80 @@
+aside{
+  padding: 1.5rem;
+  border-bottom: 1px solid $med-gray;
+  
+  @include media-query($med-screen){
+    border-right: 1px solid $med-gray;
+    border-bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    height: 100vh;
+    overflow: scroll;
+
+    &.sidebar-sm{
+      padding: 1rem .5rem 2.5rem .5rem;
+      width: 150px;
+      + * {
+        position: relative;
+        width: 100%;
+        padding-left: 150px;
+      }
+    }
+
+    &.sidebar,
+    &.sidebar-md{
+      padding: 1rem .75rem 2.5rem .75rem;
+      width: 250px;
+      + * {
+        position: relative;
+        width: 100%;
+        padding-left: 250px;
+      }
+
+    }
+
+    &.sidebar-lg{
+      padding: 1rem 1rem 2.5rem 1rem;
+      width: 350px;
+
+      + * {
+        position: relative;
+        width: 100%;
+        padding-left: 350px;
+      }
+    }
+  }
+
+  .sidebar-title{
+    margin: 0;
+  }
+ 
+  .sidebar-content{
+    
+    @include media-query($med-screen){
+       margin-top: .5rem;
+    }
+
+      .sidebar-topic{
+        padding: 0 1rem;
+        margin-top: 1.25rem;
+      }
+
+      .sidebar-subtopic{
+          font-size: .875rem;
+          margin-top: .5rem;
+          padding-left: 1.75rem;
+      }
+
+      .sidebar-topic, .sidebar-subtopic{
+        display: block;
+        text-decoration: none;
+        &:hover{
+          
+          color: $med-gray;
+        }
+      }
+    }
+
+}

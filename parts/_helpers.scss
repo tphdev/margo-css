@@ -1,0 +1,66 @@
+div.navbar-spacer{
+  border: 0;
+  margin: 0;
+  height: 60px;
+
+  @include media-query($med-screen){
+    height: 80px;    
+  }
+}
+
+.txt-center{
+  text-align: center;
+}
+
+.txt-left{
+  text-left: left;
+}
+
+.txt-justify{
+  text-align: justify;
+}
+
+.txt-right{
+  text-align: right;
+}
+
+.txt-primary{
+  color: $primary-color;
+
+}
+
+.txt-muted{
+  color: $txt-muted-color;
+}
+
+button.bg-inverted,
+a.bg-inverted,
+.bg-inverted {
+  background: $bg-inverted-color;
+  color: $inverted-font-color;
+}
+
+button.bg-success, 
+a.bg-success,
+.bg-success{
+  background: $bg-success-color;
+}
+
+button.bg-info, 
+a.bg-info,
+.bg-info{
+  background: $bg-info-color;
+}
+
+button.bg-warn, 
+a.bg-warn,
+.bg-warn{
+  background: $bg-warn-color;
+}
+
+button.bg-fail, 
+a.bg-fail,
+.bg-fail{
+  background: $bg-fail-color;
+}
+

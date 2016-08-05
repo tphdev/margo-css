@@ -1,0 +1,77 @@
+// =========================
+// Block Quotes
+
+blockquote {
+  border-left: $med-gray .5rem solid;
+  background: $faint-gray;
+  padding: 1.25rem 1rem;
+  margin: 1rem 0;
+  font-size: 1.0rem;
+
+  @include media-query($med-screen){
+    font-size: 1.125rem;
+
+  }
+
+  > * {
+    margin: .5rem;
+  }
+
+  > *:first-child{
+    margin-top: 0;
+  }
+
+  > *:last-child,{
+    margin-bottom: 0; 
+  }
+
+  cite {
+    display: block;
+    margin-top: 1.5rem;
+    &:before{
+      content: "— ";
+    }
+    
+    color: $dark-gray;
+    text-indent: -.75rem;
+    margin-left: .75rem;
+
+    font-size: .875rem;
+    font-style: normal;
+    @include media-query($med-screen){
+      font-size: 1rem;
+
+    }
+  }
+  
+}
+
+// =========================
+// Code Formatting
+
+pre {
+  margin: 1rem auto;
+  overflow: auto;
+  width: 90%;
+  background: $faint-gray;
+  padding: 1rem;
+  font-size: 1rem;
+
+  @include media-query($med-screen){
+    font-size: 1.125rem;
+  }
+  @include media-query($lg-screen){
+    font-size: 1.25rem;
+  }
+
+}
+
+
+code {
+  background: $faint-gray;  
+  color: $code-color;
+  padding: .1em .2em;
+  margin: 0 1px;
+  font-size: 1.125em;
+  font-family: monospace;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "margo-css",
+  "version": "1.0.0",
+  "description": "lightweight css framework for building responsive web sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t3patterson/margo-css.git"
+  },
+  "keywords": [
+    "margo",
+    "css",
+    "framework",
+    "minimal"
+  ],
+  "author": "t3patterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t3patterson/margo-css/issues"
+  },
+  "homepage": "https://github.com/t3patterson/margo-css#readme"
+}
