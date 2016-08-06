@@ -41,104 +41,133 @@ img {
     font-size: medium;
     vertical-align: top;
     width: 100%; }
+  .grid-container > .sm-0-x-12 {
+    display: none; }
   .grid-container > .sm-1-x-12 {
+    display: inline-block;
     width: 6.83333%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-1-x-12 {
+    display: inline-block;
     width: 8.33333%;
     margin-left: 0;
     margin-right: 0; }
   .grid-container > .sm-2-x-12 {
+    display: inline-block;
     width: 15.16667%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-2-x-12 {
+    display: inline-block;
     width: 16.66667%;
     margin-left: 0;
     margin-right: 0; }
   .grid-container > .sm-3-x-12 {
+    display: inline-block;
     width: 23.5%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-3-x-12 {
+    display: inline-block;
     width: 25%;
     margin-left: 0;
     margin-right: 0; }
   .grid-container > .sm-4-x-12 {
+    display: inline-block;
     width: 31.83333%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-4-x-12 {
+    display: inline-block;
     width: 33.33333%;
     margin-left: 0;
     margin-right: 0; }
   .grid-container > .sm-5-x-12 {
+    display: inline-block;
     width: 40.16667%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-5-x-12 {
+    display: inline-block;
     width: 41.66667%;
     margin-left: 0;
     margin-right: 0; }
   .grid-container > .sm-6-x-12 {
+    display: inline-block;
     width: 48.5%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-6-x-12 {
+    display: inline-block;
     width: 50%;
     margin-left: 0;
     margin-right: 0; }
   .grid-container > .sm-7-x-12 {
+    display: inline-block;
     width: 56.83333%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-7-x-12 {
+    display: inline-block;
     width: 58.33333%;
     margin-left: 0;
     margin-right: 0; }
   .grid-container > .sm-8-x-12 {
+    display: inline-block;
     width: 65.16667%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-8-x-12 {
+    display: inline-block;
     width: 66.66667%;
     margin-left: 0;
     margin-right: 0; }
   .grid-container > .sm-9-x-12 {
+    display: inline-block;
     width: 73.5%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-9-x-12 {
+    display: inline-block;
     width: 75%;
     margin-left: 0;
     margin-right: 0; }
   .grid-container > .sm-10-x-12 {
+    display: inline-block;
     width: 81.83333%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-10-x-12 {
+    display: inline-block;
     width: 83.33333%;
     margin-left: 0;
     margin-right: 0; }
   .grid-container > .sm-11-x-12 {
+    display: inline-block;
     width: 90.16667%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-11-x-12 {
+    display: inline-block;
     width: 91.66667%;
     margin-left: 0;
     margin-right: 0; }
   .grid-container > .sm-12-x-12 {
+    display: inline-block;
     width: 98.5%;
     margin-left: 0.75%;
     margin-right: 0.75%; }
   .grid-container.adjacent > .sm-12-x-12 {
+    display: inline-block;
     width: 100%;
     margin-left: 0;
     margin-right: 0; }
   @media screen and (min-width: 750px) {
+    .grid-container > .md-0-x-12 {
+      display: none; }
     .grid-container > .md-1-x-12 {
+      display: inline-block;
       width: 6.83333%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -147,6 +176,7 @@ img {
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .md-2-x-12 {
+      display: inline-block;
       width: 15.16667%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -155,6 +185,7 @@ img {
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .md-3-x-12 {
+      display: inline-block;
       width: 23.5%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -163,6 +194,7 @@ img {
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .md-4-x-12 {
+      display: inline-block;
       width: 31.83333%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -171,6 +203,7 @@ img {
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .md-5-x-12 {
+      display: inline-block;
       width: 40.16667%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -179,6 +212,7 @@ img {
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .md-6-x-12 {
+      display: inline-block;
       width: 48.5%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -187,6 +221,7 @@ img {
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .md-7-x-12 {
+      display: inline-block;
       width: 56.83333%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -195,6 +230,7 @@ img {
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .md-8-x-12 {
+      display: inline-block;
       width: 65.16667%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -203,6 +239,7 @@ img {
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .md-9-x-12 {
+      display: inline-block;
       width: 73.5%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -211,6 +248,7 @@ img {
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .md-10-x-12 {
+      display: inline-block;
       width: 81.83333%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -219,6 +257,7 @@ img {
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .md-11-x-12 {
+      display: inline-block;
       width: 90.16667%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -227,6 +266,7 @@ img {
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .md-12-x-12 {
+      display: inline-block;
       width: 98.5%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
@@ -235,99 +275,125 @@ img {
       margin-left: 0;
       margin-right: 0; } }
   @media screen and (min-width: 1000px) {
+    .grid-container > .lg-0-x-12 {
+      display: none; }
     .grid-container > .lg-1-x-12 {
+      display: inline-block;
       width: 6.83333%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-1-x-12 {
+      display: inline-block;
       width: 8.33333%;
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .lg-2-x-12 {
+      display: inline-block;
       width: 15.16667%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-2-x-12 {
+      display: inline-block;
       width: 16.66667%;
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .lg-3-x-12 {
+      display: inline-block;
       width: 23.5%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-3-x-12 {
+      display: inline-block;
       width: 25%;
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .lg-4-x-12 {
+      display: inline-block;
       width: 31.83333%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-4-x-12 {
+      display: inline-block;
       width: 33.33333%;
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .lg-5-x-12 {
+      display: inline-block;
       width: 40.16667%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-5-x-12 {
+      display: inline-block;
       width: 41.66667%;
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .lg-6-x-12 {
+      display: inline-block;
       width: 48.5%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-6-x-12 {
+      display: inline-block;
       width: 50%;
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .lg-7-x-12 {
+      display: inline-block;
       width: 56.83333%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-7-x-12 {
+      display: inline-block;
       width: 58.33333%;
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .lg-8-x-12 {
+      display: inline-block;
       width: 65.16667%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-8-x-12 {
+      display: inline-block;
       width: 66.66667%;
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .lg-9-x-12 {
+      display: inline-block;
       width: 73.5%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-9-x-12 {
+      display: inline-block;
       width: 75%;
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .lg-10-x-12 {
+      display: inline-block;
       width: 81.83333%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-10-x-12 {
+      display: inline-block;
       width: 83.33333%;
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .lg-11-x-12 {
+      display: inline-block;
       width: 90.16667%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-11-x-12 {
+      display: inline-block;
       width: 91.66667%;
       margin-left: 0;
       margin-right: 0; }
     .grid-container > .lg-12-x-12 {
+      display: inline-block;
       width: 98.5%;
       margin-left: 0.75%;
       margin-right: 0.75%; }
     .grid-container.adjacent > .lg-12-x-12 {
+      display: inline-block;
       width: 100%;
       margin-left: 0;
       margin-right: 0; } }
@@ -569,27 +635,39 @@ aside {
       z-index: 90;
       height: 100vh;
       overflow: scroll; }
-      aside.sidebar-sm {
+      aside.right {
+        left: inherit;
+        right: 0; }
+      aside.sm {
         padding: 1rem .5rem 2.5rem .5rem;
         width: 150px; }
-        aside.sidebar-sm + * {
+        aside.sm + * {
           position: relative;
           width: 100%;
           padding-left: 150px; }
-      aside.sidebar, aside.sidebar-md {
+        aside.sm.right + * {
+          padding-right: 150px;
+          padding-left: inherit; }
+      aside.sidebar, aside.md {
         padding: 1rem .75rem 2.5rem .75rem;
-        width: 250px; }
-        aside.sidebar + *, aside.sidebar-md + * {
+        width: 275px; }
+        aside.sidebar + *, aside.md + * {
           position: relative;
           width: 100%;
-          padding-left: 250px; }
-      aside.sidebar-lg {
+          padding-left: 275px; }
+        aside.sidebar.right + *, aside.md.right + * {
+          padding-right: 275px;
+          padding-left: inherit; }
+      aside.lg {
         padding: 1rem 1rem 2.5rem 1rem;
         width: 350px; }
-        aside.sidebar-lg + * {
+        aside.lg + * {
           position: relative;
           width: 100%;
           padding-left: 350px; }
+        aside.lg.right + * {
+          padding-right: 350px;
+          padding-left: inherit; }
       aside .sidebar-content .sidebar-topic {
         padding: 0 0 0 1rem;
         margin-top: 1.25rem; }
