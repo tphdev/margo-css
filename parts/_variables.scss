@@ -4,6 +4,8 @@ $lg-screen:   1000px;
 
 $container-content-max-width: 960px;
 
+$default-font-color: #111;
+
 // Color Scheme Variables
 $primary-color: rgba(58, 83, 155, 1.0);
 $primary-color-tranlucent: rgba(58, 83, 155, .22);
@@ -14,7 +16,7 @@ $light-primary: rgba(92, 151, 191, 1.0);
 
 $dark-gray: #95A5A6;
 $faint-gray: rgba(238, 238, 238,1);
-$faint-gray-tranlucent: rgba(238, 238, 238, .5);
+$faint-gray-translucent: rgba(238, 238, 238, .5);
 $light-gray: rgba(210, 215, 211, 1);
 $light-gray-translucent: rgba(210, 215, 211, .5);
 

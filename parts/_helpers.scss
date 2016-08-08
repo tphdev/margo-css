@@ -35,38 +35,63 @@ div.navbar-spacer{
 
 button.bg-inverted,
 a.bg-inverted,
-.bg-inverted {
+.bg-inverted,
+table tbody tr.bg-inverted,
+table thead tr.bg-inverted,
+table.striped thead tr.bg-inverted,
+table.striped tbody tr.bg-inverted {
   background: $bg-inverted-color;
   color: $inverted-font-color;
 }
 
 button.bg-success, 
 a.bg-success,
-.bg-success{
+.bg-success, 
+table tbody tr.bg-success,
+table thead tr.bg-success,
+table.striped thead tr.bg-success,
+table.striped tbody tr.bg-success{
   background: $bg-success-color;
 }
 
 button.bg-info, 
 a.bg-info,
-.bg-info{
+.bg-info,
+table tbody tr.bg-info,
+table thead tr.bg-info,
+table.striped thead tr.bg-info,
+table.striped tbody tr.bg-info{
   background: $bg-info-color;
 }
 
 button.bg-warn, 
 a.bg-warn,
-.bg-warn{
+.bg-warn,
+table tbody tr.bg-warn,
+table thead tr.bg-warn,
+table.striped thead tr.bg-warn,
+table.striped tbody tr.bg-warn{
   background: $bg-warn-color;
 }
 
 button.bg-fail, 
 a.bg-fail,
-.bg-fail{
+.bg-fail,
+table tbody tr.bg-fail,
+table thead tr.bg-fail,
+table.striped thead tr.bg-fail,
+table.striped tbody tr.bg-fail
+ {
   background: $bg-fail-color;
 }
 
 button.bg-disabled, 
 a.bg-disabled,
-.bg-disabled{
+.bg-disabled,
+table tbody tr.bg-disabled,
+table thead tr.bg-disabled,
+table.striped thead tr.bg-disabled,
+table.striped tbody tr.bg-disabled{
   background: $bg-disabled-color;
   opacity: $bg-disabled-opacity;
 }

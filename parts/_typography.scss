@@ -130,6 +130,10 @@ a {
   &:hover{
     color: $primary-color;
   }
+
+  &:focus{
+    outline: 0;
+  }
 }
 
 del {
