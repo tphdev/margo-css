@@ -3,7 +3,8 @@
 // =========================
 // Thumbnail Card
 
-figure.tn-card{
+figure,
+.tn-card{
   max-width: 270px;
   margin: .5rem auto;
   border: $med-gray 1px solid;
@@ -12,11 +13,20 @@ figure.tn-card{
   position: relative;
 
 
-  > img.card-image, img{
+  .tn-img{
+    &.padded-img{
+      padding: .5rem;
+    }
+
+  }
+
+  img{
     width: 100%;
     display: block;
 
   }
+
+  
 
   > figcaption{
     padding: .75rem .5rem;

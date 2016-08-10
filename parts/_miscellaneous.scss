@@ -144,6 +144,8 @@ code {
   }
   &.sm-1-to-1{ padding-bottom: 100%;}
   &.sm-2-to-1{ padding-bottom: 200%;}
+  &.sm-2-to-3{padding-bottom: 150%;}
+  &.sm-3-to-4{padding-bottom: 133.333%;}
   &.sm-3-to-1{ padding-bottom: 300;}
   &.sm-4-to-1{ padding-bottom: 400%;}
   &.sm-1-to-1{padding-bottom: 100%;}
@@ -154,12 +156,15 @@ code {
   &.sm-4-to-3{padding-bottom: 75%;}
   &.sm-16-to-9{padding-bottom: 56.25%;}
 
+
 }
   
 @include media-query($med-screen){
   .tile{
     &.md-1-to-1{ padding-bottom: 100%;}
     &.md-2-to-1{ padding-bottom: 200%;}
+    &.md-2-to-3{padding-bottom: 150%;}
+    &.md-3-to-4{padding-bottom: 133.333%;}
     &.md-3-to-1{ padding-bottom: 300;}
     &.md-4-to-1{ padding-bottom: 400%;}
     &.md-3-to-2{ padding-bottom: 66.6667%;}
@@ -175,6 +180,8 @@ code {
 @include media-query($lg-screen){
   .tile{
     &.lg-1-to-1{ padding-bottom: 100%;}
+    &.lg-2-to-3{padding-bottom: 150%;}
+    &.lg-3-to-4{padding-bottom: 133.333%;}
     &.lg-2-to-1{ padding-bottom: 200%;}
     &.lg-3-to-1{ padding-bottom: 300;}
     &.lg-4-to-1{ padding-bottom: 400%;}
@@ -185,5 +192,7 @@ code {
     &.lg-3-to-2{ padding-bottom: 66.6667%;}
     &.lg-4-to-3{ padding-bottom: 75%;}
     &.lg-16-to-9{padding-bottom: 56.25%;}
+    &.lg-3-to-4{padding-bottom: 133.333%;}
+
   }
 }
