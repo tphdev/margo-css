@@ -1,46 +1,46 @@
 // =========================
 // Nav
 
+$nav-background: #fff;
+$border-color: $faint-gray;
+
+$active-item-border-color: $dark-gray;
+$nav-item-hover-color: $faint-gray;
+
+$nav-side-padding: 10px;
+
+$nav-logo-size: 200px;
 
 
-$sq-size: 25px; 
-$line-size: 4px;
+$hamburger-sq-size: 25px; 
+$hamburger-line-size: 4px;
+
+$hamburger-line-color: #333;
+$hamburger-hover-color: $med-gray;
+
+$hamburger-dropdown-bg-color: rgba(255,255,255,.95);
+
 
 .nav-bar {
-  $side-padding: 10px;
-  $nav-logo-size: 200px;
+
 
   width: 100%;
-  background: #fff;
+  background: $nav-background;
   z-index: 99;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
 
   padding: 0;
   position: relative;
   height: #{$nav-height-mobile}px;
   
   @include media-query($med-screen){
-    padding: 0 $side-padding 0 $side-padding;
+    padding: 0 $nav-side-padding 0 $nav-side-padding;
     height: inherit;
 
   }
   
   
-
-  // &.lg{
-  //   @include media-query($med-screen){
-  //      height: #{$nav-height * 1.5 + 2}px;
-  //     .nav-list{ 
-  //       height: #{$nav-height * 1.5 }px;
-  //       > * {
-  //         height: #{$nav-height-mobile}px;
-  //         line-height: #{$nav-height-mobile}px;
-  //       }
-  //     }
-  //   }
-  // }
-
   &.fixed {
       position: fixed;
       z-index: 200;
@@ -51,7 +51,7 @@ $line-size: 4px;
 
   &.with-logo{
     @include media-query($med-screen){
-      padding: 0 $side-padding 0 $nav-logo-size;
+      padding: 0 $nav-side-padding 0 $nav-logo-size;
     }
     .nav-logo{
         position: absolute;
@@ -61,11 +61,11 @@ $line-size: 4px;
 
         @include media-query($med-screen){
           top: 50%;
-          left: $side-padding;
+          left: $nav-side-padding;
           transform: translate(0, -50%);
           display: block;
           margin: 0;
-          max-width: $nav-logo-size + $side-padding;
+          max-width: $nav-logo-size + $nav-side-padding;
           font-size: 1.375rem;
         }    
       }
@@ -86,7 +86,8 @@ $line-size: 4px;
       cursor: pointer;
       font-size: 1rem;
       &:hover, &:active{
-        background: $faint-gray;
+        background: $nav-item-hover-color;
+        border-bottom: 2px solid $nav-item-hover-color;
         outline: 0;
       }
 
@@ -110,7 +111,7 @@ $line-size: 4px;
         padding: 0 1.5rem 0 .375rem;
         
         &.active{
-          border-bottom: 2px solid $dark-gray;
+          border-bottom: 2px solid $active-item-border-color;
         }
 
 
@@ -140,7 +141,7 @@ $line-size: 4px;
     opacity: 0;
     cursor: pointer;
 
-    @include overlay-style($sq-size, $sq-size, 2){
+    @include overlay-style($hamburger-sq-size, $hamburger-sq-size, 2){
       top: 10px;
       right: 5px;
     }
@@ -155,7 +156,7 @@ $line-size: 4px;
 
       top: #{$nav-height-mobile - 1}px;
       z-index: 4;
-      background: rgba(255,255,255,.95);
+      background: $hamburger-dropdown-bg-color;
       @include media-query($med-screen){
         top: 0px;
         position: relative;
@@ -182,7 +183,7 @@ $line-size: 4px;
 
     &:hover:checked ~.hamburger-menu {
       > span.line{
-        background: $dark-gray;
+        background: $hamburger-line-color;
       }
     }
   }
@@ -190,12 +191,12 @@ $line-size: 4px;
 
 .hamburger-menu{
 
-  @include overlay-style($sq-size, $sq-size, 1){
+  @include overlay-style($hamburger-sq-size, $hamburger-sq-size, 1){
     right: 10px;
     top: 10px;
   }
 
-  height: $sq-size;
+  height: $hamburger-sq-size;
   transition: all .2s;
   cursor: pointer;
 
@@ -205,7 +206,7 @@ $line-size: 4px;
     top: 50%; left: 0;
     border: 0;
     background: $hamburger-line-color;
-    height: $line-size;
+    height: $hamburger-line-size;
     width: 100%;
     transition: all .2s;
     transform: translate(0,-50%);
