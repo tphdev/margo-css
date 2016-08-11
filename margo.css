@@ -642,34 +642,34 @@ aside {
       aside.right {
         left: inherit;
         right: 0; }
-      aside.sm {
+      aside.sidebar.sm, aside.sm {
         padding: 1rem .5rem 2.5rem .5rem;
         width: 150px; }
-        aside.sm + * {
+        aside.sidebar.sm + *, aside.sm + * {
           position: relative;
           width: 100%;
           padding-left: 150px; }
-        aside.sm.right + * {
+        aside.sidebar.sm.right + *, aside.sm.right + * {
           padding-right: 150px;
           padding-left: inherit; }
-      aside.sidebar, aside.md {
+      aside.sidebar, aside.sidebar.md, aside.md {
         padding: 1rem .75rem 2.5rem .75rem;
         width: 275px; }
-        aside.sidebar + *, aside.md + * {
+        aside.sidebar + *, aside.sidebar.md + *, aside.md + * {
           position: relative;
           width: 100%;
           padding-left: 275px; }
-        aside.sidebar.right + *, aside.md.right + * {
+        aside.sidebar.right + *, aside.sidebar.md.right + *, aside.md.right + * {
           padding-right: 275px;
           padding-left: inherit; }
-      aside.lg {
+      aside.sidebar.lg, aside.lg {
         padding: 1rem 1rem 2.5rem 1rem;
         width: 350px; }
-        aside.lg + * {
+        aside.sidebar.lg + *, aside.lg + * {
           position: relative;
           width: 100%;
           padding-left: 350px; }
-        aside.lg.right + * {
+        aside.sidebar.lg.right + *, aside.lg.right + * {
           padding-right: 350px;
           padding-left: inherit; }
       aside .sidebar-content .sidebar-topic {
@@ -744,7 +744,7 @@ aside {
         top: 50%;
         left: 10px;
         -webkit-transform: translate(0, -50%);
-                transform: translate(0, -50%);
+        transform: translate(0, -50%);
         display: block;
         margin: 0;
         max-width: 210px;
@@ -824,18 +824,18 @@ aside {
     .nav-bar input.hamburger-toggler:checked ~ .hamburger-menu > span.line:nth-child(1) {
       top: 50%;
       left: 0;
-      -webkit-transform: translate(0, -50%) rotate(45deg);
-              transform: translate(0, -50%) rotate(45deg); }
+      -webkit-transform: translate(0, -50%) rotate(-45deg);
+      transform: translate(0, -50%) rotate(-45deg); }
     .nav-bar input.hamburger-toggler:checked ~ .hamburger-menu > span.line:nth-child(2) {
       top: 50%;
       left: 0;
-      -webkit-transform: translate(0, -50%) rotate(45deg);
-              transform: translate(0, -50%) rotate(45deg); }
+      -webkit-transform: translate(0, -50%) rotate(-45deg);
+      transform: translate(0, -50%) rotate(-45deg); }
     .nav-bar input.hamburger-toggler:checked ~ .hamburger-menu > span.line:nth-child(3) {
       top: 50%;
       left: 0;
-      -webkit-transform: translate(0, -50%) rotate(-45deg);
-              transform: translate(0, -50%) rotate(-45deg); }
+      -webkit-transform: translate(0, -50%) rotate(45deg);
+      transform: translate(0, -50%) rotate(45deg); }
   .nav-bar input.hamburger-toggler:hover:checked ~ .hamburger-menu > span.line {
     background: #333; }
 
@@ -862,7 +862,7 @@ aside {
     -webkit-transition: all .2s;
     transition: all .2s;
     -webkit-transform: translate(0, -50%);
-            transform: translate(0, -50%); }
+    transform: translate(0, -50%); }
     .hamburger-menu > span.line:nth-child(1) {
       top: 10%;
       left: 0; }
@@ -1090,7 +1090,7 @@ code {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%); }
 
 .img-stretch {
   position: relative;
