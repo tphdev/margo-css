@@ -61,19 +61,26 @@ pre {
     font-size: 1.125rem;
   }
   @include media-query($lg-screen){
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
-
+  code{
+    padding: 0;
+  }
 }
 
 
 code {
+
   background: $faint-gray;  
   color: $code-color;
   padding: .1em .2em;
   margin: 0 1px;
-  font-size: 1.125em;
   font-family: monospace;
+  font-size: 1em;
+  
+  @include media-query($med-screen){
+    font-size: 1.125em;
+  }
 }
 
 
