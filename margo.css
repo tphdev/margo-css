@@ -954,7 +954,7 @@ table {
 
 figure,
 .tn-card {
-  max-width: 270px;
+  width: 100%;
   margin: .5rem auto;
   border: #bfbfbf 1px solid;
   box-shadow: 0 1px 2px 0 rgba(191, 191, 191, 0.5);
