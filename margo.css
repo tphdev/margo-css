@@ -946,7 +946,7 @@ table {
       table td.tcol-10rem {
         width: inherit; } }
   table thead th {
-    border-bottom: #95A5A6 1px solid; }
+    border-bottom: #333 2px solid; }
   table tbody td {
     border-bottom: #95A5A6 1px solid; }
   table.striped tbody tr:nth-child(2n) {

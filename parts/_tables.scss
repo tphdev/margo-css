@@ -2,6 +2,11 @@
 // =========================
 // Table
 
+$header-row-color: #333;
+$body-row-color: $dark-gray;
+
+
+
 div.table-full-width{
   > table{
     width: 100%;
@@ -35,12 +40,13 @@ table {
   }
   
   thead th{
-    border-bottom: $dark-gray 1px solid;
+    border-bottom: $header-row-color 2px solid;
   }
 
   tbody td{
-    border-bottom: $dark-gray 1px solid;
+    border-bottom: $body-row-color 1px solid;
   }
+
   &.striped{
     tbody tr:nth-child(2n){
       background: $faint-gray;
