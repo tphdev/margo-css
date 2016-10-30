@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-body{ 
-  margin: 0; 
+body{
+  margin: 0;
   font-family: 'Libre Franklin', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
@@ -30,5 +30,4 @@ img { max-width: 100%; }
 @import "./parts/segment";
 @import "./parts/miscellaneous";
 @import "./parts/helpers";
-
-
+@import "./parts/tiles";
