@@ -4,7 +4,7 @@ div.navbar-spacer{
   height: 60px;
 
   @include media-query($med-screen){
-    height: 80px;    
+    height: 80px;
   }
 }
 
@@ -44,9 +44,9 @@ table.striped tbody tr.bg-inverted {
   color: $inverted-font-color;
 }
 
-button.bg-success, 
+button.bg-success,
 a.bg-success,
-.bg-success, 
+.bg-success,
 table tbody tr.bg-success,
 table thead tr.bg-success,
 table.striped thead tr.bg-success,
@@ -54,7 +54,7 @@ table.striped tbody tr.bg-success{
   background: $bg-success-color;
 }
 
-button.bg-info, 
+button.bg-info,
 a.bg-info,
 .bg-info,
 table tbody tr.bg-info,
@@ -64,7 +64,7 @@ table.striped tbody tr.bg-info{
   background: $bg-info-color;
 }
 
-button.bg-warn, 
+button.bg-warn,
 a.bg-warn,
 .bg-warn,
 table tbody tr.bg-warn,
@@ -74,7 +74,7 @@ table.striped tbody tr.bg-warn{
   background: $bg-warn-color;
 }
 
-button.bg-fail, 
+button.bg-fail,
 a.bg-fail,
 .bg-fail,
 table tbody tr.bg-fail,
@@ -85,7 +85,7 @@ table.striped tbody tr.bg-fail
   background: $bg-fail-color;
 }
 
-button.bg-disabled, 
+button.bg-disabled,
 a.bg-disabled,
 .bg-disabled,
 table tbody tr.bg-disabled,
@@ -95,4 +95,3 @@ table.striped tbody tr.bg-disabled{
   background: $bg-disabled-color;
   opacity: $bg-disabled-opacity;
 }
-

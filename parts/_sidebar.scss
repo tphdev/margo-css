@@ -42,13 +42,12 @@ aside{
     z-index: 90;
     height: 100vh;
     overflow: scroll;
-    
+
     &.right{
       left: inherit;
       right: 0;
     }
-    
-    &.sidebar.sm,
+
     &.sm{
       padding: 1rem .5rem 2.5rem .5rem;
       width: $sm-sidebar-size;
@@ -65,9 +64,8 @@ aside{
 
 
     }
-    
+
     &.sidebar,
-    &.sidebar.md,
     &.md{
       padding: 1rem .75rem 2.5rem .75rem;
       width: $default-sidebar-size;
@@ -83,8 +81,7 @@ aside{
       }
 
     }
-    
-    &.sidebar.lg,
+
     &.lg{
       padding: 1rem 1rem 2.5rem 1rem;
       width: $lg-sidebar-size;

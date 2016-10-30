@@ -62,7 +62,6 @@ $hamburger-dropdown-bg-color: rgba(255,255,255,.95);
         @include media-query($med-screen){
           top: 50%;
           left: $nav-side-padding;
-          -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
           display: block;
           margin: 0;
@@ -175,16 +174,9 @@ $hamburger-dropdown-bg-color: rgba(255,255,255,.95);
     &:checked ~ .hamburger-menu{
       > span.line{
         background: $hamburger-hover-color;
-        &:nth-child(1){top: 50%; left: 0; 
-          -webkit-transform: translate(0, -50%) rotate(-45deg);
-          transform: translate(0, -50%) rotate(-45deg);}
-        &:nth-child(2){top: 50%; left: 0; 
-          -webkit-transform: translate(0, -50%) rotate(-45deg);
-          transform: translate(0, -50%) rotate(-45deg);}
-
-        &:nth-child(3){top: 50%; left: 0; 
-          -webkit-transform: translate(0, -50%) rotate(45deg);
-          transform: translate(0, -50%) rotate(45deg);}
+        &:nth-child(1){top: 50%; left: 0; transform: translate(0, -50%) rotate(45deg);}
+        &:nth-child(2){top: 50%; left: 0; transform: translate(0, -50%) rotate(45deg);}
+        &:nth-child(3){top: 50%; left: 0; transform: translate(0, -50%) rotate(-45deg);}
       }
       
     }
@@ -217,7 +209,6 @@ $hamburger-dropdown-bg-color: rgba(255,255,255,.95);
     height: $hamburger-line-size;
     width: 100%;
     transition: all .2s;
-    -webkit-transform: translate(0, -50%);
     transform: translate(0,-50%);
 
     &:nth-child(1){top: 10%; left: 0;}
