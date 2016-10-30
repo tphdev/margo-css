@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-body{
-  margin: 0;
+body{ 
+  margin: 0; 
   font-family: 'Libre Franklin', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
@@ -13,21 +13,22 @@ img { max-width: 100%; }
 
 
 
-@import "./parts/mixins";
-@import "./parts/variables";
+@import "./parts/_mixins.scss";
+@import "./parts/_variables.scss";
 
-@import "./parts/containers";
-@import "./parts/grid";
-@import "./parts/typography";
-@import "./parts/lists";
-@import "./parts/buttons";
-@import "./parts/forms";
-@import "./parts/sidebar";
-@import "./parts/header-hero";
-@import "./parts/navigation";
-@import "./parts/tables";
-@import "./parts/thumbnail-cards";
-@import "./parts/segment";
-@import "./parts/miscellaneous";
-@import "./parts/helpers";
-@import "./parts/tiles";
+@import "./parts/_containers.scss";
+@import "./parts/_grid.scss";
+@import "./parts/_typography.scss";
+@import "./parts/_lists.scss";
+@import "./parts/_buttons.scss";
+@import "./parts/_forms.scss";
+@import "./parts/_sidebar.scss";
+@import "./parts/_header-hero.scss";
+@import "./parts/_navigation.scss";
+@import "./parts/_tables.scss";
+@import "./parts/_thumbnail-cards.scss";
+@import "./parts/_segment.scss";
+@import "./parts/_miscellaneous.scss";
+@import "./parts/_helpers.scss";
+
+

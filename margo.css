@@ -1,7 +1,4 @@
 @charset "UTF-8";
-/*
-** Sane Defaults
-*/
 @import url(https://fonts.googleapis.com/css?family=Libre+Franklin:400,600,600italic,400italic,200italic,200);
 * {
   box-sizing: border-box; }
@@ -642,34 +639,34 @@ aside {
       aside.right {
         left: inherit;
         right: 0; }
-      aside.sm {
+      aside.sidebar.sm, aside.sm {
         padding: 1rem .5rem 2.5rem .5rem;
         width: 150px; }
-        aside.sm + * {
+        aside.sidebar.sm + *, aside.sm + * {
           position: relative;
           width: 100%;
           padding-left: 150px; }
-        aside.sm.right + * {
+        aside.sidebar.sm.right + *, aside.sm.right + * {
           padding-right: 150px;
           padding-left: inherit; }
-      aside.sidebar, aside.md {
+      aside.sidebar, aside.sidebar.md, aside.md {
         padding: 1rem .75rem 2.5rem .75rem;
         width: 275px; }
-        aside.sidebar + *, aside.md + * {
+        aside.sidebar + *, aside.sidebar.md + *, aside.md + * {
           position: relative;
           width: 100%;
           padding-left: 275px; }
-        aside.sidebar.right + *, aside.md.right + * {
+        aside.sidebar.right + *, aside.sidebar.md.right + *, aside.md.right + * {
           padding-right: 275px;
           padding-left: inherit; }
-      aside.lg {
+      aside.sidebar.lg, aside.lg {
         padding: 1rem 1rem 2.5rem 1rem;
         width: 350px; }
-        aside.lg + * {
+        aside.sidebar.lg + *, aside.lg + * {
           position: relative;
           width: 100%;
           padding-left: 350px; }
-        aside.lg.right + * {
+        aside.sidebar.lg.right + *, aside.lg.right + * {
           padding-right: 350px;
           padding-left: inherit; }
       aside .sidebar-content .sidebar-topic {
@@ -744,7 +741,7 @@ aside {
         top: 50%;
         left: 10px;
         -webkit-transform: translate(0, -50%);
-                transform: translate(0, -50%);
+        transform: translate(0, -50%);
         display: block;
         margin: 0;
         max-width: 210px;
@@ -824,18 +821,18 @@ aside {
     .nav-bar input.hamburger-toggler:checked ~ .hamburger-menu > span.line:nth-child(1) {
       top: 50%;
       left: 0;
-      -webkit-transform: translate(0, -50%) rotate(45deg);
-              transform: translate(0, -50%) rotate(45deg); }
+      -webkit-transform: translate(0, -50%) rotate(-45deg);
+      transform: translate(0, -50%) rotate(-45deg); }
     .nav-bar input.hamburger-toggler:checked ~ .hamburger-menu > span.line:nth-child(2) {
       top: 50%;
       left: 0;
-      -webkit-transform: translate(0, -50%) rotate(45deg);
-              transform: translate(0, -50%) rotate(45deg); }
+      -webkit-transform: translate(0, -50%) rotate(-45deg);
+      transform: translate(0, -50%) rotate(-45deg); }
     .nav-bar input.hamburger-toggler:checked ~ .hamburger-menu > span.line:nth-child(3) {
       top: 50%;
       left: 0;
-      -webkit-transform: translate(0, -50%) rotate(-45deg);
-              transform: translate(0, -50%) rotate(-45deg); }
+      -webkit-transform: translate(0, -50%) rotate(45deg);
+      transform: translate(0, -50%) rotate(45deg); }
   .nav-bar input.hamburger-toggler:hover:checked ~ .hamburger-menu > span.line {
     background: #333; }
 
@@ -862,7 +859,7 @@ aside {
     -webkit-transition: all .2s;
     transition: all .2s;
     -webkit-transform: translate(0, -50%);
-            transform: translate(0, -50%); }
+    transform: translate(0, -50%); }
     .hamburger-menu > span.line:nth-child(1) {
       top: 10%;
       left: 0; }
@@ -873,10 +870,8 @@ aside {
       top: 90%;
       left: 0; }
 
-div.table-full-width {
-  overflow: scroll; }
-  div.table-full-width > table {
-    width: 100%; }
+div.table-full-width > table {
+  width: 100%; }
 
 table {
   border-collapse: collapse;
@@ -951,7 +946,7 @@ table {
       table td.tcol-10rem {
         width: inherit; } }
   table thead th {
-    border-bottom: #95A5A6 1px solid; }
+    border-bottom: #333 2px solid; }
   table tbody td {
     border-bottom: #95A5A6 1px solid; }
   table.striped tbody tr:nth-child(2n) {
@@ -959,7 +954,7 @@ table {
 
 figure,
 .tn-card {
-  max-width: 270px;
+  width: 100%;
   margin: .5rem auto;
   border: #bfbfbf 1px solid;
   box-shadow: 0 1px 2px 0 rgba(191, 191, 191, 0.5);
@@ -1051,15 +1046,20 @@ pre {
       font-size: 1.125rem; } }
   @media screen and (min-width: 1000px) {
     pre {
-      font-size: 1.25rem; } }
+      font-size: 1.125rem; } }
+  pre code {
+    padding: 0; }
 
 code {
   background: #eeeeee;
   color: #96281B;
   padding: .1em .2em;
   margin: 0 1px;
-  font-size: 1.125em;
-  font-family: monospace; }
+  font-family: monospace;
+  font-size: 1em; }
+  @media screen and (min-width: 750px) {
+    code {
+      font-size: 1.125em; } }
 
 .link-list-box {
   border: 1px #eeeeee solid; }
@@ -1090,7 +1090,7 @@ code {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%); }
 
 .img-stretch {
   position: relative;
@@ -1281,3 +1281,19 @@ table.striped thead tr.bg-disabled,
 table.striped tbody tr.bg-disabled {
   background: #d2d7d3;
   opacity: 0.4; }
+
+.ez-2-col {
+  margin: 0;
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  position: relative;
+  z-index: 7; }
+  .ez-2-col + .ez-2-col {
+    padding-left: .1em;
+    margin-left: -.30rem !important;
+    z-index: 6; }
+  .ez-2-col.long-col {
+    width: 75%; }
+  .ez-2-col.short-col {
+    width: 25%; }

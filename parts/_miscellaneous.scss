@@ -22,7 +22,7 @@ blockquote {
   }
 
   > *:last-child,{
-    margin-bottom: 0;
+    margin-bottom: 0; 
   }
 
   cite {
@@ -31,7 +31,7 @@ blockquote {
     &:before{
       content: "— ";
     }
-
+    
     color: $dark-gray;
     text-indent: -.75rem;
     margin-left: .75rem;
@@ -43,7 +43,7 @@ blockquote {
 
     }
   }
-
+  
 }
 
 // =========================
@@ -61,19 +61,26 @@ pre {
     font-size: 1.125rem;
   }
   @include media-query($lg-screen){
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
-
+  code{
+    padding: 0;
+  }
 }
 
 
 code {
-  background: $faint-gray;
+
+  background: $faint-gray;  
   color: $code-color;
   padding: .1em .2em;
   margin: 0 1px;
-  font-size: 1.125em;
   font-family: monospace;
+  font-size: 1em;
+  
+  @include media-query($med-screen){
+    font-size: 1.125em;
+  }
 }
 
 
@@ -100,7 +107,7 @@ code {
     }
   }
 }
-
+  
 .contents-centered{
   margin: 0;
   position: relative;
@@ -110,6 +117,7 @@ code {
     position: absolute;
     margin: 0;
     top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 }
@@ -130,28 +138,69 @@ code {
   }
 }
 
-// =========================
-// Easy 2 Column Layout
 
-.ez-2-col {
-    margin: 0;
-		display: inline-block;
-		width: 50%;
-    vertical-align: middle;
-    position: relative;
-    z-index: 7;
-
-		+ .ez-2-col{
-      padding-left: .1em;
-			margin-left: -.30rem !important;
-      z-index: 6;
-		}
-
-    &.long-col {
-      width: 75%
+.tile{
+  position: relative;
+  > .tile-content{
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;  
+    overflow: hidden;
+    &.padded-tile{
+      padding: 1rem;
     }
+  }
+  &.sm-1-to-1{ padding-bottom: 100%;}
+  &.sm-2-to-1{ padding-bottom: 200%;}
+  &.sm-2-to-3{padding-bottom: 150%;}
+  &.sm-3-to-4{padding-bottom: 133.333%;}
+  &.sm-3-to-1{ padding-bottom: 300;}
+  &.sm-4-to-1{ padding-bottom: 400%;}
+  &.sm-1-to-1{padding-bottom: 100%;}
+  &.sm-2-to-1{padding-bottom: 50%;}
+  &.sm-3-to-1{padding-bottom: 33.3333%;}
+  &.sm-4-to-1{padding-bottom: 25%;}
+  &.sm-3-to-2{padding-bottom: 66.6667%;}
+  &.sm-4-to-3{padding-bottom: 75%;}
+  &.sm-16-to-9{padding-bottom: 56.25%;}
 
-    &.short-col{
-      width: 25%
-    }
+
+}
+  
+@include media-query($med-screen){
+  .tile{
+    &.md-1-to-1{ padding-bottom: 100%;}
+    &.md-2-to-1{ padding-bottom: 200%;}
+    &.md-2-to-3{padding-bottom: 150%;}
+    &.md-3-to-4{padding-bottom: 133.333%;}
+    &.md-3-to-1{ padding-bottom: 300;}
+    &.md-4-to-1{ padding-bottom: 400%;}
+    &.md-3-to-2{ padding-bottom: 66.6667%;}
+    &.md-4-to-3{ padding-bottom: 75%;}
+    &.md-16-to-9{padding-bottom: 56.25%;}
+    &.md-1-to-3{ padding-bottom: 300%;}
+    &.md-1-to-3{ padding-bottom: 200%;}
+    &.md-1-to-4{ padding-bottom: 400%;}
+
+  }
+}
+
+@include media-query($lg-screen){
+  .tile{
+    &.lg-1-to-1{ padding-bottom: 100%;}
+    &.lg-2-to-3{padding-bottom: 150%;}
+    &.lg-3-to-4{padding-bottom: 133.333%;}
+    &.lg-2-to-1{ padding-bottom: 200%;}
+    &.lg-3-to-1{ padding-bottom: 300;}
+    &.lg-4-to-1{ padding-bottom: 400%;}
+    &.lg-1-to-1{ padding-bottom: 100%;}
+    &.lg-2-to-1{ padding-bottom: 50%;}
+    &.lg-3-to-1{ padding-bottom: 33.3333%;}
+    &.lg-4-to-1{ padding-bottom: 25%;}
+    &.lg-3-to-2{ padding-bottom: 66.6667%;}
+    &.lg-4-to-3{ padding-bottom: 75%;}
+    &.lg-16-to-9{padding-bottom: 56.25%;}
+    &.lg-3-to-4{padding-bottom: 133.333%;}
+
+  }
 }

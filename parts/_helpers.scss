@@ -95,3 +95,26 @@ table.striped tbody tr.bg-disabled{
   background: $bg-disabled-color;
   opacity: $bg-disabled-opacity;
 }
+
+.ez-2-col {
+    margin: 0;
+		display: inline-block;
+		width: 50%;
+    vertical-align: middle;
+    position: relative;
+    z-index: 7;
+
+		+ .ez-2-col{
+      padding-left: .1em;
+			margin-left: -.30rem !important;
+      z-index: 6;
+		}
+
+    &.long-col {
+      width: 75%
+    }
+
+    &.short-col{
+      width: 25%
+    }
+}
