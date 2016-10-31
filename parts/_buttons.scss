@@ -2,11 +2,9 @@
 // =========================
 // Button styles
 
-input,
-input[type='button'], 
-input[type='submit'],
-select,
-option{
+input[type='button'],
+input[type='submit'] {
+  -moz-appearance: none;
   -webkit-appearance: none;
 }
 
@@ -23,18 +21,18 @@ button, button.btn, input[type='button'], input[type='submit'], a.btn{
   font-size: 1rem;
   cursor: pointer;
   color: #333;
-  
+
   &.sm { font-size: .75rem; line-height: 1.875rem; }
-  &.lg { 
-    font-size: 1.5rem; 
-    line-height: 3.75rem; 
+  &.lg {
+    font-size: 1.5rem;
+    line-height: 3.75rem;
     padding: 0 1.25rem;
 
     @include media-query($med-screen){
       padding: 0 1.5rem;
 
     }
-  } 
+  }
 
   &:hover{
     background: $light-gray;

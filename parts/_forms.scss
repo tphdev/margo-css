@@ -1,13 +1,50 @@
+// INPUT SETTINGS
+// -------------------------
+.input-paddings,
+input,
+input[type='text'],
+input[type='email'],
+input[type='password']{
+  padding: 0 .75rem;
+  height: 2.5rem;
+}
+
+.input-defaults,
+input[type='text'],
+input[type='email'],
+input[type='password'],
+select,
+textarea{
+  line-height: 1.5;
+  outline: 0;
+  border: $med-gray 1px solid;
+  font-size: 1rem;
+  border-radius: $site-border-radius;
+  margin-bottom: 1.25rem;
+  background: #fff;
+
+  &:focus{
+    border: 1px solid $light-primary;
+  }
+}
+
+textarea,
+.textarea-defaults {
+  padding: .5rem .75rem;
+  &:focus{
+    border: 1px solid $light-primary;
+  }
+}
+
+
 form.form-group{
   display: block;
-  
+
   input[type='text'],
   input[type='email'],
   input[type='password'],
   select{
-    padding: 0 .75rem;
-    height: 2.5rem;
-
+    @extend .input-paddings
   }
 
   input[type='text'],
@@ -15,25 +52,12 @@ form.form-group{
   input[type='password'],
   select,
   textarea{
+    @extend .input-defaults;
     width: 100%;
-    line-height: 1.5;
-    outline: 0;
-    border: $med-gray 1px solid;
-    font-size: 1rem;
-    border-radius: $site-border-radius;
-    margin-bottom: 1.25rem;
-    background: #fff;
-
-    &:focus{
-      border: 1px solid $light-primary;
-    }
   }
 
   textarea{
-    padding: .5rem .75rem;
-    &:focus{
-      border: 1px solid $light-primary;
-    }
+    @extend .textarea-defaults
   }
 
   .form-field{
@@ -52,7 +76,81 @@ form.form-group{
       display: block;
     }
   }
+}
 
+//Checkbox Settings
+//=======================
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 22px; height: 24px;
+    border: 1px #333 solid;
+    position: relative;
+    z-index: 9;
+    &:focus{
+        outline: 0;
+    }
+    &:checked{
+        background-color: $info-color;
+        &:after{
+            position: absolute;
+            top: 40%; left: 50%;
+            z-index: 10;
+            content: "";
+            display: block;
+            width: 11px;
+            height: 5px;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            border-left: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+
+        }
+    }
 }
 
 
+//Radio Settings
+//=======================
+input[type="radio"]{
+    -webkit-appearance: none;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 26px; height: 26px;
+    border: 1px #333 solid;
+    border-radius: 50%;
+    position: relative;
+    z-index: 9;
+    &:focus{
+        outline: 0;
+    }
+    &:checked{
+        &:after{
+            position: absolute;
+            background-color: $info-color;
+            top: 50%; left: 50%;
+            z-index: 10;
+            content: "";
+            display: block;
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            transform: translate(-50%, -50%) rotate(-45deg);
+
+        }
+    }
+}
+
+select {
+
+  -webkit-appearance: none;
+  background: #ddd;
+
+  &:before{
+    background: #333;
+    width: 3px;
+    height: 3px;
+    border-bottom: 2px solid #333;
+    border-left: 2px solid #333;
+  }
+}

@@ -13,11 +13,9 @@ img {
 /*
 ** Sane Defaults
 */
-input,
 input[type='button'],
-input[type='submit'],
-select,
-option {
+input[type='submit'] {
+  -moz-appearance: none;
   -webkit-appearance: none; }
 
 button, button.btn, input[type='button'], input[type='submit'], a.btn {
@@ -69,37 +67,63 @@ button, button.btn, input[type='button'], input[type='submit'], a.btn {
 .container-full {
   width: 100%; }
 
+.input-paddings, form.form-group input[type='text'],
+form.form-group input[type='email'],
+form.form-group input[type='password'],
+form.form-group select,
+input,
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  padding: 0 .75rem;
+  height: 2.5rem; }
+
+.input-defaults, form.form-group input[type='text'],
+form.form-group input[type='email'],
+form.form-group input[type='password'],
+form.form-group select,
+form.form-group textarea,
+input[type='text'],
+input[type='email'],
+input[type='password'],
+select,
+textarea {
+  line-height: 1.5;
+  outline: 0;
+  border: #bfbfbf 1px solid;
+  font-size: 1rem;
+  border-radius: 2px;
+  margin-bottom: 1.25rem;
+  background: #fff; }
+  .input-defaults:focus, form.form-group input[type='text']:focus,
+  form.form-group input[type='email']:focus,
+  form.form-group input[type='password']:focus,
+  form.form-group select:focus,
+  form.form-group textarea:focus,
+  input[type='text']:focus,
+  input[type='email']:focus,
+  input[type='password']:focus,
+  select:focus,
+  textarea:focus {
+    border: 1px solid #5c97bf; }
+
+textarea,
+.textarea-defaults,
+form.form-group textarea {
+  padding: .5rem .75rem; }
+  textarea:focus,
+  .textarea-defaults:focus,
+  form.form-group textarea:focus {
+    border: 1px solid #5c97bf; }
+
 form.form-group {
   display: block; }
   form.form-group input[type='text'],
   form.form-group input[type='email'],
   form.form-group input[type='password'],
-  form.form-group select {
-    padding: 0 .75rem;
-    height: 2.5rem; }
-  form.form-group input[type='text'],
-  form.form-group input[type='email'],
-  form.form-group input[type='password'],
   form.form-group select,
   form.form-group textarea {
-    width: 100%;
-    line-height: 1.5;
-    outline: 0;
-    border: #bfbfbf 1px solid;
-    font-size: 1rem;
-    border-radius: 2px;
-    margin-bottom: 1.25rem;
-    background: #fff; }
-    form.form-group input[type='text']:focus,
-    form.form-group input[type='email']:focus,
-    form.form-group input[type='password']:focus,
-    form.form-group select:focus,
-    form.form-group textarea:focus {
-      border: 1px solid #5c97bf; }
-  form.form-group textarea {
-    padding: .5rem .75rem; }
-    form.form-group textarea:focus {
-      border: 1px solid #5c97bf; }
+    width: 100%; }
   form.form-group .form-field {
     display: inline-block; }
     form.form-group .form-field label {
@@ -112,6 +136,69 @@ form.form-group {
     form.form-group .form-field select,
     form.form-group .form-field textarea {
       display: block; }
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 22px;
+  height: 24px;
+  border: 1px #333 solid;
+  position: relative;
+  z-index: 9; }
+  input[type="checkbox"]:focus {
+    outline: 0; }
+  input[type="checkbox"]:checked {
+    background-color: #5C97BF; }
+    input[type="checkbox"]:checked:after {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      z-index: 10;
+      content: "";
+      display: block;
+      width: 11px;
+      height: 5px;
+      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+              transform: translate(-50%, -50%) rotate(-45deg);
+      border-left: 2px solid #fff;
+      border-bottom: 2px solid #fff; }
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 26px;
+  height: 26px;
+  border: 1px #333 solid;
+  border-radius: 50%;
+  position: relative;
+  z-index: 9; }
+  input[type="radio"]:focus {
+    outline: 0; }
+  input[type="radio"]:checked:after {
+    position: absolute;
+    background-color: #5C97BF;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    content: "";
+    display: block;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+            transform: translate(-50%, -50%) rotate(-45deg); }
+
+select {
+  -webkit-appearance: none;
+  background: #ddd; }
+  select:before {
+    background: #333;
+    width: 3px;
+    height: 3px;
+    border-bottom: 2px solid #333;
+    border-left: 2px solid #333; }
 
 .grid-container {
   font-size: 0; }
