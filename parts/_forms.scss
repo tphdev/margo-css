@@ -4,10 +4,19 @@
 input,
 input[type='text'],
 input[type='email'],
+input[type='date'],
 input[type='password']{
   padding: 0 .75rem;
   height: 2.5rem;
 }
+
+input[type='date'],
+input[type='email'],
+input[type='password']{
+  padding: 0 .1.25rem;
+}
+
+
 
 .input-defaults,
 input[type='text'],
@@ -43,13 +52,16 @@ form.form-group{
   input[type='text'],
   input[type='email'],
   input[type='password'],
+  input[type='date'],
   select{
     @extend .input-paddings
   }
 
+
   input[type='text'],
   input[type='email'],
   input[type='password'],
+  input[type='date'],
   select,
   textarea{
     @extend .input-defaults;
@@ -81,10 +93,13 @@ form.form-group{
 //Checkbox Settings
 //=======================
 input[type="checkbox"]{
+    padding: initial;
     -webkit-appearance: none;
+    padding: 0;
     display: inline-block;
+    margin: 0 3px 0 0;
     vertical-align: bottom;
-    width: 22px; height: 24px;
+    width: 24px; height: 24px;
     border: 1px #333 solid;
     position: relative;
     z-index: 9;
@@ -112,11 +127,30 @@ input[type="checkbox"]{
 
 //Radio Settings
 //=======================
+label {
+  &.radiocheck{
+    margin-right: .75rem;
+    > input[type="radio"],
+    > input[type="checkbox"],
+    > span{
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    > span {
+      font-weight: initial;
+    }
+  }
+
+}
+
 input[type="radio"]{
+    padding: 0;
+    margin: 0 3px 0 0px;
     -webkit-appearance: none;
     display: inline-block;
     vertical-align: bottom;
-    width: 26px; height: 26px;
+    width: 24px; height: 24px;
     border: 1px #333 solid;
     border-radius: 50%;
     position: relative;
@@ -153,4 +187,9 @@ select {
     border-bottom: 2px solid #333;
     border-left: 2px solid #333;
   }
+}
+
+
+input[type='date']{
+  font-family: $font-stack
 }

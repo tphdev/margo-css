@@ -1,4 +1,5 @@
 
+
 body, h1, h2, h3, h4, h5, h6 {
   font-size-adjust: 0.5;
   font-weight: 400;
@@ -7,7 +8,6 @@ body, h1, h2, h3, h4, h5, h6 {
 
 
 body {
-  font-size: 1rem; /* equivalent to 16px */
   line-height: 1.25; /* equivalent to 20px */
 }
 
@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6{
 h1 {
   font-size: 2rem;/* 2x body copy size = 32px */
   line-height: 1.25; /* 45px / 36px */
-  
+
 }
 
 h2 {
@@ -38,7 +38,7 @@ h3 {
 
 h4 {
   font-size: 1.125rem;/* 2x body copy size = 32px */
-  line-height: 1.136363; /* 45px / 36px */ 
+  line-height: 1.136363; /* 45px / 36px */
 }
 
 p{
@@ -77,26 +77,26 @@ p{
 @include media-query($lg-screen){
   h1{
     font-size: 3rem;     /* 3x body copy size = 48px */
-    line-height: 1.05; 
-    /* keep to a multiple of the 20px line height 
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height
     and something more appropriate for display headings */
   }
   h2{
     font-size: 2.25rem;     /* 3x body copy size = 48px */
-    line-height: 1.25; 
-      /* keep to a multiple of the 20px line height 
+    line-height: 1.25;
+      /* keep to a multiple of the 20px line height
       and something more appropriate for display headings */
   }
   h3{
     font-size: 1.75rem;     /* 3x body copy size = 48px */
-    line-height: 1.05; 
-      /* keep to a multiple of the 20px line height 
+    line-height: 1.05;
+      /* keep to a multiple of the 20px line height
       and something more appropriate for display headings */
   }
   h4{
     font-size: 1.125rem;     /* 3x body copy size = 48px */
-    line-height: 1.222222; 
-      /* keep to a multiple of the 20px line height 
+    line-height: 1.222222;
+      /* keep to a multiple of the 20px line height
       and something more appropriate for display headings */
   }
 }

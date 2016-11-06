@@ -4,6 +4,7 @@ $lg-screen:   1000px;
 
 $container-content-max-width: 960px;
 
+$font-stack:  'Libre Franklin', 'Helvetica Neue', 'Helvetica', sans-serif;
 $default-font-color: #111;
 
 // Color Scheme Variables
@@ -44,12 +45,12 @@ $bg-disabled-opacity: .4;
 $bg-inverted-color: #333;
 $inverted-font-color: #fff;
 
-$txt-muted-color: $dark-gray; 
+$txt-muted-color: $dark-gray;
 
 // Nav Variables
 $nav-height: 80;
 $nav-height-mobile: $nav-height * .75;
 $hamburger-line-color: #333;
-$hamburger-hover-color: $light-gray; 
+$hamburger-hover-color: $light-gray;
 
 $site-border-radius: 2px;

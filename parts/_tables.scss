@@ -7,11 +7,12 @@ $body-row-color: $dark-gray;
 
 
 
-table.table-full-width{
-    width: 100%;
-}
+
 
 table {
+  &.table-full-width{
+      width: 100%;
+  }
   border-collapse: collapse;
   table-layout: fixed;
   margin: 1rem 0;

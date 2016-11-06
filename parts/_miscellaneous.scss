@@ -22,7 +22,7 @@ blockquote {
   }
 
   > *:last-child,{
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
 
   cite {
@@ -31,7 +31,7 @@ blockquote {
     &:before{
       content: "— ";
     }
-    
+
     color: $dark-gray;
     text-indent: -.75rem;
     margin-left: .75rem;
@@ -43,7 +43,7 @@ blockquote {
 
     }
   }
-  
+
 }
 
 // =========================
@@ -71,16 +71,16 @@ pre {
 
 code {
 
-  background: $faint-gray;  
+  background: $faint-gray;
   color: $code-color;
   padding: .1em .2em;
   margin: 0 1px;
   font-family: monospace;
   font-size: 1em;
-  
-  @include media-query($med-screen){
-    font-size: 1.125em;
-  }
+
+  // @include media-query($med-screen){
+  //   font-size: 1.125em;
+  // }
 }
 
 
@@ -107,7 +107,7 @@ code {
     }
   }
 }
-  
+
 .contents-centered{
   margin: 0;
   position: relative;
@@ -144,7 +144,7 @@ code {
   > .tile-content{
     position: absolute;
     top: 0; bottom: 0;
-    left: 0; right: 0;  
+    left: 0; right: 0;
     overflow: hidden;
     &.padded-tile{
       padding: 1rem;
@@ -166,7 +166,7 @@ code {
 
 
 }
-  
+
 @include media-query($med-screen){
   .tile{
     &.md-1-to-1{ padding-bottom: 100%;}

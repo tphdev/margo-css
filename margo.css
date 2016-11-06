@@ -1,15 +1,5 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Libre+Franklin:400,600,600italic,400italic,200italic,200);
-* {
-  box-sizing: border-box; }
-
-body {
-  margin: 0;
-  font-family: 'Libre Franklin', 'Helvetica Neue', 'Helvetica', sans-serif; }
-
-img {
-  max-width: 100%; }
-
 /*
 ** Sane Defaults
 */
@@ -70,17 +60,25 @@ button, button.btn, input[type='button'], input[type='submit'], a.btn {
 .input-paddings, form.form-group input[type='text'],
 form.form-group input[type='email'],
 form.form-group input[type='password'],
+form.form-group input[type='date'],
 form.form-group select,
 input,
 input[type='text'],
 input[type='email'],
+input[type='date'],
 input[type='password'] {
   padding: 0 .75rem;
   height: 2.5rem; }
 
+input[type='date'],
+input[type='email'],
+input[type='password'] {
+  padding: 0 0.1 0.25rem; }
+
 .input-defaults, form.form-group input[type='text'],
 form.form-group input[type='email'],
 form.form-group input[type='password'],
+form.form-group input[type='date'],
 form.form-group select,
 form.form-group textarea,
 input[type='text'],
@@ -98,6 +96,7 @@ textarea {
   .input-defaults:focus, form.form-group input[type='text']:focus,
   form.form-group input[type='email']:focus,
   form.form-group input[type='password']:focus,
+  form.form-group input[type='date']:focus,
   form.form-group select:focus,
   form.form-group textarea:focus,
   input[type='text']:focus,
@@ -121,6 +120,7 @@ form.form-group {
   form.form-group input[type='text'],
   form.form-group input[type='email'],
   form.form-group input[type='password'],
+  form.form-group input[type='date'],
   form.form-group select,
   form.form-group textarea {
     width: 100%; }
@@ -138,10 +138,13 @@ form.form-group {
       display: block; }
 
 input[type="checkbox"] {
+  padding: initial;
   -webkit-appearance: none;
+  padding: 0;
   display: inline-block;
+  margin: 0 3px 0 0;
   vertical-align: bottom;
-  width: 22px;
+  width: 24px;
   height: 24px;
   border: 1px #333 solid;
   position: relative;
@@ -164,12 +167,24 @@ input[type="checkbox"] {
       border-left: 2px solid #fff;
       border-bottom: 2px solid #fff; }
 
+label.radiocheck {
+  margin-right: .75rem; }
+  label.radiocheck > input[type="radio"],
+  label.radiocheck > input[type="checkbox"],
+  label.radiocheck > span {
+    display: inline-block;
+    vertical-align: middle; }
+  label.radiocheck > span {
+    font-weight: initial; }
+
 input[type="radio"] {
+  padding: 0;
+  margin: 0 3px 0 0px;
   -webkit-appearance: none;
   display: inline-block;
   vertical-align: bottom;
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   border: 1px #333 solid;
   border-radius: 50%;
   position: relative;
@@ -199,6 +214,9 @@ select {
     height: 3px;
     border-bottom: 2px solid #333;
     border-left: 2px solid #333; }
+
+input[type='date'] {
+  font-family: "Libre Franklin", "Helvetica Neue", "Helvetica", sans-serif; }
 
 .grid-container {
   font-size: 0; }
@@ -765,9 +783,6 @@ code {
   margin: 0 1px;
   font-family: monospace;
   font-size: 1em; }
-  @media screen and (min-width: 750px) {
-    code {
-      font-size: 1.125em; } }
 
 .link-list-box {
   border: 1px #eeeeee solid; }
@@ -1149,13 +1164,12 @@ aside {
         margin-top: .5rem;
         padding: 0 0 0 1.75rem; } }
 
-table.table-full-width {
-  width: 100%; }
-
 table {
   border-collapse: collapse;
   table-layout: fixed;
   margin: 1rem 0; }
+  table.table-full-width {
+    width: 100%; }
   table th:first-child,
   table td:first-child {
     padding-left: .375rem; }
@@ -1369,8 +1383,6 @@ body, h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 body {
-  font-size: 1rem;
-  /* equivalent to 16px */
   line-height: 1.25;
   /* equivalent to 20px */ }
 
@@ -1436,28 +1448,28 @@ p {
     font-size: 3rem;
     /* 3x body copy size = 48px */
     line-height: 1.05;
-    /* keep to a multiple of the 20px line height 
+    /* keep to a multiple of the 20px line height
     and something more appropriate for display headings */ }
 
   h2 {
     font-size: 2.25rem;
     /* 3x body copy size = 48px */
     line-height: 1.25;
-    /* keep to a multiple of the 20px line height 
+    /* keep to a multiple of the 20px line height
     and something more appropriate for display headings */ }
 
   h3 {
     font-size: 1.75rem;
     /* 3x body copy size = 48px */
     line-height: 1.05;
-    /* keep to a multiple of the 20px line height 
+    /* keep to a multiple of the 20px line height
     and something more appropriate for display headings */ }
 
   h4 {
     font-size: 1.125rem;
     /* 3x body copy size = 48px */
     line-height: 1.222222;
-    /* keep to a multiple of the 20px line height 
+    /* keep to a multiple of the 20px line height
     and something more appropriate for display headings */ } }
 mark {
   background: #f7ca18;
@@ -1476,3 +1488,16 @@ a {
 
 del {
   text-decoration: line-through; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  font-family: "Libre Franklin", "Helvetica Neue", "Helvetica", sans-serif; }
+
+img {
+  max-width: 100%; }
