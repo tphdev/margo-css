@@ -1149,7 +1149,7 @@ aside {
         margin-top: .5rem;
         padding: 0 0 0 1.75rem; } }
 
-div.table-full-width > table {
+table.table-full-width {
   width: 100%; }
 
 table {
