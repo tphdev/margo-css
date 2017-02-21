@@ -27,7 +27,7 @@
 
   > .MG-sm-0-of-12 {display: none;}
   @for $i from 1 through 12{
-    > .sm-#{$i}-of-12{display: inline-block; width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
+    > .MG-sm-#{$i}-of-12{display: inline-block; width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
     &.MG-grid__adjacent > .MG-sm-#{$i}-of-12{display: inline-block; width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
 
   }

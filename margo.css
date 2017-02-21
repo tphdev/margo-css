@@ -221,7 +221,7 @@ input[type='date'] {
     width: 100%; }
   .MG-grid > .MG-sm-0-of-12 {
     display: none; }
-  .MG-grid > .sm-1-of-12 {
+  .MG-grid > .MG-sm-1-of-12 {
     display: inline-block;
     width: 6.83333%;
     margin-left: 0.75%;
@@ -231,7 +231,7 @@ input[type='date'] {
     width: 8.33333%;
     margin-left: 0;
     margin-right: 0; }
-  .MG-grid > .sm-2-of-12 {
+  .MG-grid > .MG-sm-2-of-12 {
     display: inline-block;
     width: 15.16667%;
     margin-left: 0.75%;
@@ -241,7 +241,7 @@ input[type='date'] {
     width: 16.66667%;
     margin-left: 0;
     margin-right: 0; }
-  .MG-grid > .sm-3-of-12 {
+  .MG-grid > .MG-sm-3-of-12 {
     display: inline-block;
     width: 23.5%;
     margin-left: 0.75%;
@@ -251,7 +251,7 @@ input[type='date'] {
     width: 25%;
     margin-left: 0;
     margin-right: 0; }
-  .MG-grid > .sm-4-of-12 {
+  .MG-grid > .MG-sm-4-of-12 {
     display: inline-block;
     width: 31.83333%;
     margin-left: 0.75%;
@@ -261,7 +261,7 @@ input[type='date'] {
     width: 33.33333%;
     margin-left: 0;
     margin-right: 0; }
-  .MG-grid > .sm-5-of-12 {
+  .MG-grid > .MG-sm-5-of-12 {
     display: inline-block;
     width: 40.16667%;
     margin-left: 0.75%;
@@ -271,7 +271,7 @@ input[type='date'] {
     width: 41.66667%;
     margin-left: 0;
     margin-right: 0; }
-  .MG-grid > .sm-6-of-12 {
+  .MG-grid > .MG-sm-6-of-12 {
     display: inline-block;
     width: 48.5%;
     margin-left: 0.75%;
@@ -281,7 +281,7 @@ input[type='date'] {
     width: 50%;
     margin-left: 0;
     margin-right: 0; }
-  .MG-grid > .sm-7-of-12 {
+  .MG-grid > .MG-sm-7-of-12 {
     display: inline-block;
     width: 56.83333%;
     margin-left: 0.75%;
@@ -291,7 +291,7 @@ input[type='date'] {
     width: 58.33333%;
     margin-left: 0;
     margin-right: 0; }
-  .MG-grid > .sm-8-of-12 {
+  .MG-grid > .MG-sm-8-of-12 {
     display: inline-block;
     width: 65.16667%;
     margin-left: 0.75%;
@@ -301,7 +301,7 @@ input[type='date'] {
     width: 66.66667%;
     margin-left: 0;
     margin-right: 0; }
-  .MG-grid > .sm-9-of-12 {
+  .MG-grid > .MG-sm-9-of-12 {
     display: inline-block;
     width: 73.5%;
     margin-left: 0.75%;
@@ -311,7 +311,7 @@ input[type='date'] {
     width: 75%;
     margin-left: 0;
     margin-right: 0; }
-  .MG-grid > .sm-10-of-12 {
+  .MG-grid > .MG-sm-10-of-12 {
     display: inline-block;
     width: 81.83333%;
     margin-left: 0.75%;
@@ -321,7 +321,7 @@ input[type='date'] {
     width: 83.33333%;
     margin-left: 0;
     margin-right: 0; }
-  .MG-grid > .sm-11-of-12 {
+  .MG-grid > .MG-sm-11-of-12 {
     display: inline-block;
     width: 90.16667%;
     margin-left: 0.75%;
@@ -331,7 +331,7 @@ input[type='date'] {
     width: 91.66667%;
     margin-left: 0;
     margin-right: 0; }
-  .MG-grid > .sm-12-of-12 {
+  .MG-grid > .MG-sm-12-of-12 {
     display: inline-block;
     width: 98.5%;
     margin-left: 0.75%;
