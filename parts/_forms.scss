@@ -1,7 +1,6 @@
 // INPUT SETTINGS
 // -------------------------
-.input-paddings,
-input,
+.MG-input-paddings,
 input[type='text'],
 input[type='email'],
 input[type='date'],
@@ -18,7 +17,7 @@ input[type='password']{
 
 
 
-.input-defaults,
+.MG-input-defaults,
 input[type='text'],
 input[type='email'],
 input[type='password'],
@@ -37,8 +36,7 @@ textarea{
   }
 }
 
-textarea,
-.textarea-defaults {
+.MG-textarea {
   padding: .5rem .75rem;
   &:focus{
     border: 1px solid $light-primary;
@@ -46,7 +44,7 @@ textarea,
 }
 
 
-form.form-group{
+.MG-form-group{
   display: block;
 
   input[type='text'],
@@ -54,7 +52,7 @@ form.form-group{
   input[type='password'],
   input[type='date'],
   select{
-    @extend .input-paddings
+    @extend .MG-input-paddings;
   }
 
 
@@ -64,15 +62,15 @@ form.form-group{
   input[type='date'],
   select,
   textarea{
-    @extend .input-defaults;
+    @extend .MG-textarea;
     width: 100%;
   }
 
   textarea{
-    @extend .textarea-defaults
+    @extend .MG-input-paddings;
   }
 
-  .form-field{
+  .MG-form-group__field{
     display: inline-block;
     label{
       display: block;
@@ -92,7 +90,7 @@ form.form-group{
 
 //Checkbox Settings
 //=======================
-input[type="checkbox"]{
+.MG-checkbox{
     padding: initial;
     -webkit-appearance: none;
     padding: 0;
@@ -127,24 +125,23 @@ input[type="checkbox"]{
 
 //Radio Settings
 //=======================
-label {
-  &.radiocheck{
-    margin-right: .75rem;
-    > input[type="radio"],
-    > input[type="checkbox"],
-    > span{
-      display: inline-block;
-      vertical-align: middle;
-    }
+.MG-radiocheck{
+ -webkit-appearance: none;
+ margin-right: .75rem;
+ > input[type="radio"],
+ > input[type="checkbox"],
+ > span{
+   display: inline-block;
+   vertical-align: middle;
+ }
 
-    > span {
-      font-weight: initial;
-    }
-  }
-
+ > span {
+   font-weight: initial;
+ }
 }
 
-input[type="radio"]{
+
+.MG-radio{
     padding: 0;
     margin: 0 3px 0 0px;
     -webkit-appearance: none;
@@ -175,8 +172,7 @@ input[type="radio"]{
     }
 }
 
-select {
-
+.MG-select {
   -webkit-appearance: none;
   background: #ddd;
 

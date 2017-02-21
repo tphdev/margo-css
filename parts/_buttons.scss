@@ -8,29 +8,26 @@ input[type='submit'] {
   -webkit-appearance: none;
 }
 
-button, button.btn, input[type='button'], input[type='submit'], a.btn{
+button, .MG-btn,  button.MG-btn, input[type='button'], input[type='submit'], a.MG-btn_md, a.MG-btn{
   display: inline-block;
   text-decoration: none;
   background: #fff;
   margin-bottom: .5rem;
   outline: 0;
   border: 1px solid #333;
-  line-height: 2.5rem;
-  padding: 0 1rem;
+  padding: .75rem 1.25rem ;
   border-radius: 2px;
   font-size: 1rem;
   cursor: pointer;
   color: #333;
 
-  &.sm { font-size: .75rem; line-height: 1.875rem; }
-  &.lg {
+  &.MG-btn_sm { font-size: .75rem; padding: .5rem 1.25rem; }
+  &.MG-btn_lg {
     font-size: 1.5rem;
-    line-height: 3.75rem;
-    padding: 0 1.25rem;
+    padding: 1rem 1.75rem;
 
     @include media-query($med-screen){
       padding: 0 1.5rem;
-
     }
   }
 
@@ -38,7 +35,7 @@ button, button.btn, input[type='button'], input[type='submit'], a.btn{
     background: $light-gray;
   }
 
-  &.primary{
+  &.MG-btn_primary{
     background: $primary-color;
     color:#fff;
 
