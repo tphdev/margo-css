@@ -1,16 +1,16 @@
-#Margo CSS
+# Margo CSS
 
 A lightweight responsive CSS framework for building websites.
 
-###Get Margo CSS
-#####NPM
+### Get Margo CSS
+##### NPM
 `npm install margo-css --save`
 
-#####zip-file
+##### zip-file
 margo-css.zip : [download link](margo-css.zip)
 
-###Check out the styles
+### Check out the styles
 [margocss.github.io](https://margocss.github.io) 
 
-###Read the Documentaition
+### Read the Documentaition
 [Docs](https://margocss.github.io/documentation.html) 
