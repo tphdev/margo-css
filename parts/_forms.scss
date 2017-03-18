@@ -1,6 +1,6 @@
 // INPUT SETTINGS
 // -------------------------
-.MG-input-paddings,
+.M-input-paddings,
 input[type='text'],
 input[type='email'],
 input[type='date'],
@@ -17,7 +17,7 @@ input[type='password']{
 
 
 
-.MG-input-defaults,
+.M-input-defaults,
 input[type='text'],
 input[type='email'],
 input[type='password'],
@@ -36,7 +36,7 @@ textarea{
   }
 }
 
-.MG-textarea {
+.M-textarea {
   padding: .5rem .75rem;
   &:focus{
     border: 1px solid $light-primary;
@@ -44,7 +44,7 @@ textarea{
 }
 
 
-.MG-form-group{
+.M-form-group{
   display: block;
 
   input[type='text'],
@@ -52,7 +52,7 @@ textarea{
   input[type='password'],
   input[type='date'],
   select{
-    @extend .MG-input-paddings;
+    @extend .M-input-paddings;
   }
 
 
@@ -62,35 +62,35 @@ textarea{
   input[type='date'],
   select,
   textarea{
-    @extend .MG-textarea;
+    @extend .M-textarea;
     width: 100%;
   }
 
   textarea{
-    @extend .MG-input-paddings;
-  }
-
-  .MG-form-group__field{
-    display: inline-block;
-    label{
-      display: block;
-      font-weight: 700;
-      margin-bottom: .5rem;
-    }
-
-    input[type='text'],
-    input[type='email'],
-    input[type='password'],
-    select,
-    textarea{
-      display: block;
-    }
+    @extend .M-input-paddings;
   }
 }
 
+ .M-form-group__field{
+   display: inline-block;
+   label{
+     display: block;
+     font-weight: 700;
+     margin-bottom: .5rem;
+   }
+
+   input[type='text'],
+   input[type='email'],
+   input[type='password'],
+   select,
+   textarea{
+     display: block;
+   }
+ }
+
 //Checkbox Settings
 //=======================
-.MG-checkbox{
+.M-checkbox{
     padding: initial;
     -webkit-appearance: none;
     padding: 0;
@@ -125,7 +125,7 @@ textarea{
 
 //Radio Settings
 //=======================
-.MG-radiocheck{
+.M-radiocheck{
  -webkit-appearance: none;
  margin-right: .75rem;
  > input[type="radio"],
@@ -141,7 +141,7 @@ textarea{
 }
 
 
-.MG-radio{
+.M-radio{
     padding: 0;
     margin: 0 3px 0 0px;
     -webkit-appearance: none;
@@ -172,7 +172,7 @@ textarea{
     }
 }
 
-.MG-select {
+.M-select {
   -webkit-appearance: none;
   background: #ddd;
 

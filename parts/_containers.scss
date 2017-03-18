@@ -1,18 +1,18 @@
 // =========================
 /* Body Content - container */
 
-.MG-container_narrow{
+.M-container_narrow{
   max-width: $container-content-max-width;
   padding: 0 5px;
   margin: 0 auto;
   width: 95%;
   @include media-query($med-screen){ width: 95%; }
   @include media-query($lg-screen){ width: 90%; }
-  .MG-container_narrow{
+  .M-container_narrow{
     width: 100%;
   }
 }
 
-.MG-container_full{
+.M-container_full{
   width: 100%;
 }

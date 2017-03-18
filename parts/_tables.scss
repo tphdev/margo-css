@@ -5,17 +5,17 @@ $header-row-color: #333;
 $body-row-color: $dark-gray;
 
 
-.MG-table_full-width{
+.M-table_full-width{
 	 width: 100%;
 }
 
-.MG-table_striped{
+.M-table_striped{
   tbody tr:nth-child(2n){
 	 background: $faint-gray;
   }
 }
 
-.MG-table {
+.M-table {
   
   border-collapse: collapse;
   table-layout: fixed;

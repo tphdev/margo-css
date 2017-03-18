@@ -1,103 +1,122 @@
-.MG-text_center{
+.M-text_center{
   text-align: center;
 }
 
-.MG-text_left{
+.M-text_left{
   text-left: left;
 }
 
-.MG-text_justify{
+.M-text_justify{
   text-align: justify;
 }
 
-.MG-text_right{
+.M-text_right{
   text-align: right;
 }
 
-.MG-text_primary{
+.M-text_primary{
   color: $primary-color;
-
+}
+.M-text_success{
+  color: $success-color;
+  text-shadow: 1px 1px 1px #333;
+}
+.M-text_fail{
+  color: $fail-color;
+  text-shadow: 1px 1px 1px #333;
 }
 
-.MG-text_muted{
+.M-text_warn{
+  color: $warn-color;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.M-text_info{
+  color: $info-color;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.M-text_muted{
   color: $txt-muted-color;
 }
 
-button.MG-bg_inverted,
-a.MG-bg_inverted,
-.MG-bg_inverted,
-table tbody tr.MG-bg_inverted,
-table thead tr.MG-bg_inverted,
-table.MG-table_striped thead tr.MG-bg_inverted,
-table.MG-table_striped tbody tr.MG-bg_inverted {
+button.M-bg_inverted,
+input[type="submit"].M-bg_inverted,
+a.M-bg_inverted,
+.M-bg_inverted,
+table tbody tr.M-bg_inverted,
+table thead tr.M-bg_inverted,
+table.M-table_striped thead tr.M-bg_inverted,
+table.M-table_striped tbody tr.M-bg_inverted {
   background: $bg-inverted-color;
   color: $inverted-font-color;
 }
 
-button.MG-bg_success,
-a.MG-bg_success,
-.MG-bg_success,
-table tbody tr.MG-bg_success,
-table thead tr.MG-bg_success,
-table.MG-table_striped thead tr.MG-bg_success,
-table.MG-table_striped tbody tr.MG-bg_success{
+button.M-bg_success,
+input[type="submit"].M-bg_success,
+a.M-bg_success,
+.M-bg_success,
+table tbody tr.M-bg_success,
+table thead tr.M-bg_success,
+table.M-table_striped thead tr.M-bg_success,
+table.M-table_striped tbody tr.M-bg_success{
   background: $success-color;
   color: $inverted-font-color;
 }
 
-button.MG-bg_info,
-a.MG-bg_info,
-.MG-bg_info,
-table tbody tr.MG-bg_info,
-table thead tr.MG-bg_info,
-table.MG-table_striped thead tr.MG-bg_info,
-table.MG-table_striped tbody tr.MG-bg_info{
+button.M-bg_info,
+a.M-bg_info,
+.M-bg_info,
+table tbody tr.M-bg_info,
+table thead tr.M-bg_info,
+table.M-table_striped thead tr.M-bg_info,
+table.M-table_striped tbody tr.M-bg_info{
   background: $info-color;
   color: $inverted-font-color;
 
 }
 
-button.MG-bg_warn,
-a.MG-bg_warn,
-.MG-bg_warn,
-table tbody tr.MG-bg_warn,
-table thead tr.MG-bg_warn,
-table.MG-table_striped thead tr.MG-bg_warn,
-table.MG-table_striped tbody tr.MG-bg_warn{
+button.M-bg_warn,
+a.M-bg_warn,
+.M-bg_warn,
+table tbody tr.M-bg_warn,
+table thead tr.M-bg_warn,
+table.M-table_striped thead tr.M-bg_warn,
+table.M-table_striped tbody tr.M-bg_warn{
   background: $warn-color;
 }
 
-button.MG-bg_fail,
-a.MG-bg_fail,
-.MG-bg_fail,
-table tbody tr.MG-bg_fail,
-table thead tr.MG-bg_fail,
-table.MG-table_striped thead tr.MG-bg_fail,
-table.MG-table_striped tbody tr.MG-bg_fail
+button.M-bg_fail,
+a.M-bg_fail,
+.M-bg_fail,
+table tbody tr.M-bg_fail,
+table thead tr.M-bg_fail,
+table.M-table_striped thead tr.M-bg_fail,
+table.M-table_striped tbody tr.M-bg_fail
  {
   background: $fail-color;
   color: $inverted-font-color;
 
 }
 
-button.MG-bg_disabled,
-a.MG-bg_disabled,
-.MG-bg_disabled,
-table tbody tr.MG-bg_disabled,
-table thead tr.MG-bg_disabled,
-table.MG-table_striped thead tr.MG-bg_disabled,
-table.MG-table_striped tbody tr.MG-bg_disabled{
+button.M-bg_disabled,
+a.M-bg_disabled,
+.M-bg_disabled,
+table tbody tr.M-bg_disabled,
+table thead tr.M-bg_disabled,
+table.M-table_striped thead tr.M-bg_disabled,
+table.M-table_striped tbody tr.M-bg_disabled{
   background: $bg-disabled-color;
   opacity: $bg-disabled-opacity;
 }
 
-button.MG-bg_primary,
-a.MG-bg_primary,
-.MG-bg_primary,
-table tbody tr.MG-bg_primary,
-table thead tr.MG-bg_primary,
-table.MG-table_striped thead tr.MG-bg_primary,
-table.MG-table_striped tbody tr.MG-bg_primary{
+button.M-bg_primary,
+a.M-bg_primary,
+.M-bg_primary,
+table tbody tr.M-bg_primary,
+table thead tr.M-bg_primary,
+table.M-table_striped thead tr.M-bg_primary,
+table.M-table_striped tbody tr.M-bg_primary{
   background: $primary-color;
   color: $inverted-font-color;
 }

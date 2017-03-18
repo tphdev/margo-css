@@ -8,7 +8,7 @@ input[type='submit'] {
   -webkit-appearance: none;
 }
 
-button, .MG-btn,  button.MG-btn, input[type='button'], input[type='submit'], a.MG-btn_md, a.MG-btn{
+button, .M-btn, button.M-btn, input[type='button'], input[type='submit'], a.M-btn_md, a.M-btn{
   display: inline-block;
   text-decoration: none;
   background: #fff;
@@ -21,21 +21,14 @@ button, .MG-btn,  button.MG-btn, input[type='button'], input[type='submit'], a.M
   cursor: pointer;
   color: #333;
 
-  &.MG-btn_sm { font-size: .75rem; padding: .5rem 1.25rem; }
-  &.MG-btn_lg {
-    font-size: 1.5rem;
-    padding: 1rem 1.75rem;
-
-    @include media-query($med-screen){
-      padding: 0 1.5rem;
-    }
-  }
+  &.M-btn_sm { font-size: .75rem; padding: .5rem 1.25rem; }
+  &.M-btn_lg { font-size: 1.5rem; padding: 1rem 1.75rem; }
 
   &:hover{
     background: $light-gray;
   }
 
-  &.MG-btn_primary{
+  &.M-btn_primary{
     background: $primary-color;
     color:#fff;
 

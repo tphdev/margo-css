@@ -1,7 +1,7 @@
 // =========================
 // Block Quotes
 
-.MG-blockquote {
+.M-blockquote {
   border-left: $med-gray .5rem solid;
   background: $faint-gray;
   padding: 1.25rem 1rem;
@@ -10,7 +10,6 @@
 
   @include media-query($med-screen){
     font-size: 1.125rem;
-
   }
 
   > * {
@@ -24,8 +23,12 @@
   > *:last-child,{
     margin-bottom: 0;
   }
+}
 
-  cite {
+// =========================
+// Code Formatting
+
+ .M-cite {
     display: block;
     margin-top: 1.5rem;
     &:before{
@@ -43,11 +46,6 @@
 
     }
   }
-
-}
-
-// =========================
-// Code Formatting
 
 pre {
   margin: 1rem auto;
