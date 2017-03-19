@@ -26,6 +26,8 @@ button, .M-btn, button.M-btn, input[type='button'], input[type='submit'], a.M-bt
 
   &:hover{
     background: $light-gray;
+    text-shadow: $light-text-shadow;
+
   }
 
   &.M-btn_primary{

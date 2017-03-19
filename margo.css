@@ -27,7 +27,8 @@ button, .M-btn, button.M-btn, input[type='button'], input[type='submit'], a.M-bt
     font-size: 1.5rem;
     padding: 1rem 1.75rem; }
   button:hover, .M-btn:hover, button.M-btn:hover, input[type='button']:hover, input[type='submit']:hover, a.M-btn_md:hover, a.M-btn:hover {
-    background: #d2d7d3; }
+    background: #d2d7d3;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
   button.M-btn_primary, .M-btn.M-btn_primary, button.M-btn.M-btn_primary, input[type='button'].M-btn_primary, input[type='submit'].M-btn_primary, a.M-btn_md.M-btn_primary, a.M-btn.M-btn_primary {
     background: #3a539b;
     color: #fff; }
@@ -587,26 +588,28 @@ input[type='date'] {
   text-align: right; }
 
 .M-text_primary {
-  color: #3a539b; }
+  color: #3a539b;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
 
 .M-text_success {
   color: #019875;
-  text-shadow: 1px 1px 1px #333; }
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
 
 .M-text_fail {
   color: #E26A6A;
-  text-shadow: 1px 1px 1px #333; }
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
 
 .M-text_warn {
   color: #F4B350;
-  text-shadow: 1px 1px 1px #333; }
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
 
 .M-text_info {
   color: #5C97BF;
-  text-shadow: 1px 1px 1px #333; }
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
 
 .M-text_muted {
-  color: #95A5A6; }
+  color: #95A5A6;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
 
 button.M-bg_inverted,
 input[type="submit"].M-bg_inverted,
@@ -617,7 +620,8 @@ table thead tr.M-bg_inverted,
 table.M-table_striped thead tr.M-bg_inverted,
 table.M-table_striped tbody tr.M-bg_inverted {
   background: #333;
-  color: #fff; }
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45); }
 
 button.M-bg_success,
 input[type="submit"].M-bg_success,
@@ -628,7 +632,8 @@ table thead tr.M-bg_success,
 table.M-table_striped thead tr.M-bg_success,
 table.M-table_striped tbody tr.M-bg_success {
   background: #019875;
-  color: #fff; }
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45); }
 
 button.M-bg_info,
 a.M-bg_info,
@@ -638,7 +643,8 @@ table thead tr.M-bg_info,
 table.M-table_striped thead tr.M-bg_info,
 table.M-table_striped tbody tr.M-bg_info {
   background: #5C97BF;
-  color: #fff; }
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45); }
 
 button.M-bg_warn,
 a.M-bg_warn,
@@ -657,7 +663,8 @@ table thead tr.M-bg_fail,
 table.M-table_striped thead tr.M-bg_fail,
 table.M-table_striped tbody tr.M-bg_fail {
   background: #E26A6A;
-  color: #fff; }
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45); }
 
 button.M-bg_disabled,
 a.M-bg_disabled,
@@ -677,7 +684,8 @@ table thead tr.M-bg_primary,
 table.M-table_striped thead tr.M-bg_primary,
 table.M-table_striped tbody tr.M-bg_primary {
   background: #3a539b;
-  color: #fff; }
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45); }
 
 ul, ol {
   padding-left: 1.25rem;
@@ -946,7 +954,10 @@ code {
     padding-bottom: 133.333%; } }
 body, h1, h2, h3, h4, h5, h6 {
   font-size-adjust: 0.5;
-  font-weight: 400; }
+  font-weight: 400;
+  font-family: "Libre Franklin", "Helvetica Neue", "Helvetica", "Calibri", sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  font-family: "Libre Franklin", "Helvetica Neue", "Helvetica", "Calibri", sans-serif; }
 
 body {
   line-height: 1.25;
@@ -1063,8 +1074,7 @@ html {
   font-size: 16px; }
 
 body {
-  margin: 0;
-  font-family: "Libre Franklin", "Helvetica Neue", "Helvetica", "Calibri", sans-serif; }
+  margin: 0; }
 
 img {
   max-width: 100%; }

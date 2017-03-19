@@ -24,6 +24,8 @@ $light-gray-translucent: rgba(210, 215, 211, .5);
 $med-gray: rgba(191, 191, 191, 1);
 $med-gray-translucent: rgba(191, 191, 191, .5);
 
+$light-text-shadow : 1px 1px 1px rgba(0,0,0, .1);
+$dark-text-shadow : 1px 1px 1px rgba(0,0,0, .45);
 // Import partials from `sass_dir` (defaults to `_sass`)
 
 $code-color: #96281B;
