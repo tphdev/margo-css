@@ -16,30 +16,23 @@
 
 .M-text_primary{
   color: $primary-color;
-  text-shadow: $light-text-shadow;
 }
 .M-text_success{
   color: $success-color;
-  text-shadow: $light-text-shadow;
 }
 .M-text_fail{
   color: $fail-color;
-  text-shadow: $light-text-shadow;
 }
 
 .M-text_warn{
-  color: $warn-color;
-  text-shadow: $light-text-shadow;
-}
+  color: $warn-color;}
 
 .M-text_info{
   color: $info-color;
-  text-shadow: $light-text-shadow;
 }
 
 .M-text_muted{
   color: $txt-muted-color;
-  text-shadow: $light-text-shadow;
 }
 
 button.M-bg_inverted,
@@ -52,9 +45,7 @@ table.M-table_striped thead tr.M-bg_inverted,
 table.M-table_striped tbody tr.M-bg_inverted {
   background: $bg-inverted-color;
   color: $inverted-font-color;
-    text-shadow: $dark-text-shadow;
-
-
+  text-shadow: $dark-text-shadow;
 }
 
 button.M-bg_success,
@@ -67,8 +58,6 @@ table.M-table_striped thead tr.M-bg_success,
 table.M-table_striped tbody tr.M-bg_success{
   background: $success-color;
   color: $inverted-font-color;
-  text-shadow: $dark-text-shadow;
-
 }
 
 button.M-bg_info,
@@ -80,9 +69,6 @@ table.M-table_striped thead tr.M-bg_info,
 table.M-table_striped tbody tr.M-bg_info{
   background: $info-color;
   color: $inverted-font-color;
-  text-shadow: $dark-text-shadow;
-
-
 }
 
 button.M-bg_warn,
@@ -105,7 +91,6 @@ table.M-table_striped tbody tr.M-bg_fail
  {
   background: $fail-color;
   color: $inverted-font-color;
-  text-shadow: $dark-text-shadow;
 }
 
 button.M-bg_disabled,
@@ -128,5 +113,4 @@ table.M-table_striped thead tr.M-bg_primary,
 table.M-table_striped tbody tr.M-bg_primary{
   background: $primary-color;
   color: $inverted-font-color;
-  text-shadow: $dark-text-shadow;
 }

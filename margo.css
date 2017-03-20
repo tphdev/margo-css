@@ -588,28 +588,22 @@ input[type='date'] {
   text-align: right; }
 
 .M-text_primary {
-  color: #3a539b;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+  color: #3a539b; }
 
 .M-text_success {
-  color: #019875;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+  color: #019875; }
 
 .M-text_fail {
-  color: #E26A6A;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+  color: #E26A6A; }
 
 .M-text_warn {
-  color: #F4B350;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+  color: #F4B350; }
 
 .M-text_info {
-  color: #5C97BF;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+  color: #5C97BF; }
 
 .M-text_muted {
-  color: #95A5A6;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+  color: #95A5A6; }
 
 button.M-bg_inverted,
 input[type="submit"].M-bg_inverted,
@@ -632,8 +626,7 @@ table thead tr.M-bg_success,
 table.M-table_striped thead tr.M-bg_success,
 table.M-table_striped tbody tr.M-bg_success {
   background: #019875;
-  color: #fff;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45); }
+  color: #fff; }
 
 button.M-bg_info,
 a.M-bg_info,
@@ -643,8 +636,7 @@ table thead tr.M-bg_info,
 table.M-table_striped thead tr.M-bg_info,
 table.M-table_striped tbody tr.M-bg_info {
   background: #5C97BF;
-  color: #fff;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45); }
+  color: #fff; }
 
 button.M-bg_warn,
 a.M-bg_warn,
@@ -663,8 +655,7 @@ table thead tr.M-bg_fail,
 table.M-table_striped thead tr.M-bg_fail,
 table.M-table_striped tbody tr.M-bg_fail {
   background: #E26A6A;
-  color: #fff;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45); }
+  color: #fff; }
 
 button.M-bg_disabled,
 a.M-bg_disabled,
@@ -684,8 +675,7 @@ table thead tr.M-bg_primary,
 table.M-table_striped thead tr.M-bg_primary,
 table.M-table_striped tbody tr.M-bg_primary {
   background: #3a539b;
-  color: #fff;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45); }
+  color: #fff; }
 
 ul, ol {
   padding-left: 1.25rem;
@@ -955,8 +945,6 @@ code {
 body, h1, h2, h3, h4, h5, h6 {
   font-size-adjust: 0.5;
   font-weight: 400;
-  font-family: "Libre Franklin", "Helvetica Neue", "Helvetica", "Calibri", sans-serif;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   font-family: "Libre Franklin", "Helvetica Neue", "Helvetica", "Calibri", sans-serif; }
 
 body {
