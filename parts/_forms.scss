@@ -37,6 +37,7 @@ textarea{
 }
 
 .M-textarea {
+  width: 100%;
   padding: .5rem .75rem;
   &:focus{
     border: 1px solid $light-primary;

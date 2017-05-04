@@ -45,7 +45,6 @@ table.M-table_striped thead tr.M-bg_inverted,
 table.M-table_striped tbody tr.M-bg_inverted {
   background: $bg-inverted-color;
   color: $inverted-font-color;
-  text-shadow: $dark-text-shadow;
 }
 
 button.M-bg_success,
@@ -60,7 +59,14 @@ table.M-table_striped tbody tr.M-bg_success{
   color: $inverted-font-color;
 }
 
+button.M-bg_success:hover,
+input[type="submit"].M-bg_success:hover,
+a.M-bg_success:hover{
+  background: $success-color_lightened;
+}
+
 button.M-bg_info,
+input[type="submit"].M-bg_info,
 a.M-bg_info,
 .M-bg_info,
 table tbody tr.M-bg_info,
@@ -71,14 +77,27 @@ table.M-table_striped tbody tr.M-bg_info{
   color: $inverted-font-color;
 }
 
+button.M-bg_info:hover,
+input[type="submit"].M-bg_info:hover,
+a.M-bg_info:hover{
+  background: $info-color_lightened;
+}
+
 button.M-bg_warn,
 a.M-bg_warn,
+input[type="submit"].M-bg_warn,
 .M-bg_warn,
 table tbody tr.M-bg_warn,
 table thead tr.M-bg_warn,
 table.M-table_striped thead tr.M-bg_warn,
 table.M-table_striped tbody tr.M-bg_warn{
   background: $warn-color;
+}
+
+button.M-bg_warn:hover,
+a.M-bg_warn:hover,
+input[type="submit"].M-bg_warn:hover {
+  background: $warn-color_lightened;
 }
 
 button.M-bg_fail,
@@ -92,6 +111,14 @@ table.M-table_striped tbody tr.M-bg_fail
   background: $fail-color;
   color: $inverted-font-color;
 }
+
+button.M-bg_fail:hover,
+a.M-bg_fail:hover,
+input[type="submit"].M-bg_fail:hover{
+    background: $fail-color_lightened;
+
+}
+
 
 button.M-bg_disabled,
 a.M-bg_disabled,

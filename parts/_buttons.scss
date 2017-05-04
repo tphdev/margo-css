@@ -23,11 +23,10 @@ button, .M-btn, button.M-btn, input[type='button'], input[type='submit'], a.M-bt
 
   &.M-btn_sm { font-size: .75rem; padding: .5rem 1.25rem; }
   &.M-btn_lg { font-size: 1.5rem; padding: 1rem 1.75rem; }
+  &.M-btn_block { width: 100% }
 
   &:hover{
     background: $light-gray;
-    text-shadow: $light-text-shadow;
-
   }
 
   &.M-btn_primary{
@@ -38,4 +37,6 @@ button, .M-btn, button.M-btn, input[type='button'], input[type='submit'], a.M-bt
       background: $light-primary;
     }
   }
+
+  
 }
