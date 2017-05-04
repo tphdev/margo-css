@@ -1058,6 +1058,7 @@ input[type="submit"].M-bg_warn:hover {
 
 button.M-bg_fail,
 a.M-bg_fail,
+input[type="submit"].M-bg_fail,
 .M-bg_fail,
 table tbody tr.M-bg_fail,
 table thead tr.M-bg_fail,
