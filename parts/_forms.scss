@@ -1,7 +1,6 @@
 // INPUT SETTINGS
 // -------------------------
-.input-paddings,
-input,
+.M-input-paddings,
 input[type='text'],
 input[type='email'],
 input[type='date'],
@@ -18,7 +17,7 @@ input[type='password']{
 
 
 
-.input-defaults,
+.M-input-defaults,
 input[type='text'],
 input[type='email'],
 input[type='password'],
@@ -37,8 +36,8 @@ textarea{
   }
 }
 
-textarea,
-.textarea-defaults {
+.M-textarea {
+  width: 100%;
   padding: .5rem .75rem;
   &:focus{
     border: 1px solid $light-primary;
@@ -46,7 +45,7 @@ textarea,
 }
 
 
-form.form-group{
+.M-form-group{
   display: block;
 
   input[type='text'],
@@ -54,7 +53,7 @@ form.form-group{
   input[type='password'],
   input[type='date'],
   select{
-    @extend .input-paddings
+    @extend .M-input-paddings;
   }
 
 
@@ -64,35 +63,36 @@ form.form-group{
   input[type='date'],
   select,
   textarea{
-    @extend .input-defaults;
+    @extend .M-textarea;
     width: 100%;
   }
 
   textarea{
-    @extend .textarea-defaults
-  }
-
-  .form-field{
-    display: inline-block;
-    label{
-      display: block;
-      font-weight: 700;
-      margin-bottom: .5rem;
-    }
-
-    input[type='text'],
-    input[type='email'],
-    input[type='password'],
-    select,
-    textarea{
-      display: block;
-    }
+    @extend .M-input-paddings;
   }
 }
 
+ .M-form-group__field{
+   display: inline-block;
+   .M-form-group__field_label{
+     display: block;
+     font-weight: 700;
+     margin-bottom: .5rem;
+   }
+
+   .M-form-group__field_input,
+   input[type='text'].M-form-group__field_input,
+   input[type='email'].M-form-group__field_input,
+   input[type='password'].M-form-group__field_input,
+   select.M-form-group__field_input,
+   textarea.M-form-group__field_input{
+     display: block;
+   }
+ }
+
 //Checkbox Settings
 //=======================
-input[type="checkbox"]{
+.M-checkbox{
     padding: initial;
     -webkit-appearance: none;
     padding: 0;
@@ -127,24 +127,23 @@ input[type="checkbox"]{
 
 //Radio Settings
 //=======================
-label {
-  &.radiocheck{
-    margin-right: .75rem;
-    > input[type="radio"],
-    > input[type="checkbox"],
-    > span{
-      display: inline-block;
-      vertical-align: middle;
-    }
+.M-radiocheck{
+ -webkit-appearance: none;
+ margin-right: .75rem;
+ > input[type="radio"],
+ > input[type="checkbox"],
+ > span{
+   display: inline-block;
+   vertical-align: middle;
+ }
 
-    > span {
-      font-weight: initial;
-    }
-  }
-
+ > span {
+   font-weight: initial;
+ }
 }
 
-input[type="radio"]{
+
+.M-radio{
     padding: 0;
     margin: 0 3px 0 0px;
     -webkit-appearance: none;
@@ -175,8 +174,7 @@ input[type="radio"]{
     }
 }
 
-select {
-
+.M-select {
   -webkit-appearance: none;
   background: #ddd;
 

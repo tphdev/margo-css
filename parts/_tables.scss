@@ -1,4 +1,3 @@
-
 // =========================
 // Table
 
@@ -6,13 +5,18 @@ $header-row-color: #333;
 $body-row-color: $dark-gray;
 
 
+.M-table--full-width{
+	 width: 100%;
+}
 
-
-
-table {
-  &.table-full-width{
-      width: 100%;
+.M-table--striped{
+  tbody tr:nth-child(2n){
+	 background: $faint-gray;
   }
+}
+
+.M-table {
+
   border-collapse: collapse;
   table-layout: fixed;
   margin: 1rem 0;
@@ -44,12 +48,6 @@ table {
 
   tbody td{
     border-bottom: $body-row-color 1px solid;
-  }
-
-  &.striped{
-    tbody tr:nth-child(2n){
-      background: $faint-gray;
-    }
   }
 
 }

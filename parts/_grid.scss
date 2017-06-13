@@ -1,6 +1,6 @@
 // =========================
 // Grid
-.grid-container {
+.M-grid {
   $col-1: 1/12;
   $col-2: 2/12;
   $col-3: 3/12;
@@ -25,27 +25,27 @@
 
   $gutter-size: 1.5/100;
 
-  > .sm-0-of-12 {display: none;}
+  > .M-grid__sm-0-of-12 {display: none;}
   @for $i from 1 through 12{
-    > .sm-#{$i}-of-12{display: inline-block; width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
-    &.adjacent > .sm-#{$i}-of-12{display: inline-block; width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
+    > .M-grid__sm-#{$i}-of-12{display: inline-block; width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
+    &.M-grid--adjacent > .M-sm-#{$i}-of-12{display: inline-block; width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
 
   }
 
   @include media-query($med-screen){
-      > .md-0-of-12 {display: none;}
+      > .M-grid__md-0-of-12 {display: none;}
     @for $i from 1 through 12{
-       > .md-#{$i}-of-12{display: inline-block; width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
-       &.adjacent > .md-#{$i}-of-12{width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
+       > .M-grid__md-#{$i}-of-12{display: inline-block; width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
+       &.M-grid--adjacent > .M-md-#{$i}-of-12{width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
 
     }
   }
 
   @include media-query($lg-screen){
-      > .lg-0-of-12 {display: none;}
+      > .M-grid__lg-0-of-12 {display: none;}
     @for $i from 1 through 12{
-       > .lg-#{$i}-of-12{display: inline-block; width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
-       &.adjacent > .lg-#{$i}-of-12{display: inline-block; width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
+       > .M-grid__lg-#{$i}-of-12{display: inline-block; width: #{($i/12-$gutter-size)* 100%}; margin-left: $gutter-size/2 * 100%; margin-right: $gutter-size/2 * 100%;}
+       &.M-grid--adjacent > .M-lg-#{$i}-of-12{display: inline-block; width: #{$i/12* 100%}; margin-left: 0; margin-right: 0;}
     }
   }
 }

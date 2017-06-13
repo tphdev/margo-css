@@ -1,120 +1,143 @@
-div.navbar-spacer{
-  border: 0;
-  margin: 0;
-  height: 60px;
-
-  @include media-query($med-screen){
-    height: 80px;
-  }
-}
-
-.txt-center{
+.M-text--center{
   text-align: center;
 }
 
-.txt-left{
+.M-text--left{
   text-left: left;
 }
 
-.txt-justify{
+.M-text--justify{
   text-align: justify;
 }
 
-.txt-right{
+.M-text--right{
   text-align: right;
 }
 
-.txt-primary{
+.M-text--primary{
   color: $primary-color;
-
+}
+.M-text--success{
+  color: $success-color;
+}
+.M-text--fail{
+  color: $fail-color;
 }
 
-.txt-muted{
+.M-text--warn{
+  color: $warn-color;}
+
+.M-text--info{
+  color: $info-color;
+}
+
+.M-text--muted{
   color: $txt-muted-color;
 }
 
-button.bg-inverted,
-a.bg-inverted,
-.bg-inverted,
-table tbody tr.bg-inverted,
-table thead tr.bg-inverted,
-table.striped thead tr.bg-inverted,
-table.striped tbody tr.bg-inverted {
+button.M-bg--inverted,
+input[type="submit"].M-bg--inverted,
+a.M-bg--inverted,
+.M-bg--inverted,
+table tbody tr.M-bg--inverted,
+table thead tr.M-bg--inverted,
+table.M-table--striped thead tr.M-bg--inverted,
+table.M-table--striped tbody tr.M-bg--inverted {
   background: $bg-inverted-color;
   color: $inverted-font-color;
 }
 
-button.bg-success,
-a.bg-success,
-.bg-success,
-table tbody tr.bg-success,
-table thead tr.bg-success,
-table.striped thead tr.bg-success,
-table.striped tbody tr.bg-success{
-  background: $bg-success-color;
+button.M-bg--success,
+input[type="submit"].M-bg--success,
+a.M-bg--success,
+.M-bg--success,
+table tbody tr.M-bg--success,
+table thead tr.M-bg--success,
+table.M-table--striped thead tr.M-bg--success,
+table.M-table--striped tbody tr.M-bg--success{
+  background: $success-color;
+  color: $inverted-font-color;
 }
 
-button.bg-info,
-a.bg-info,
-.bg-info,
-table tbody tr.bg-info,
-table thead tr.bg-info,
-table.striped thead tr.bg-info,
-table.striped tbody tr.bg-info{
-  background: $bg-info-color;
+button.M-bg--success:hover,
+input[type="submit"].M-bg--success:hover,
+a.M-bg--success:hover{
+  background: $success-color_lightened;
 }
 
-button.bg-warn,
-a.bg-warn,
-.bg-warn,
-table tbody tr.bg-warn,
-table thead tr.bg-warn,
-table.striped thead tr.bg-warn,
-table.striped tbody tr.bg-warn{
-  background: $bg-warn-color;
+button.M-bg--info,
+input[type="submit"].M-bg--info,
+a.M-bg--info,
+.M-bg--info,
+table tbody tr.M-bg--info,
+table thead tr.M-bg--info,
+table.M-table--striped thead tr.M-bg--info,
+table.M-table--striped tbody tr.M-bg--info{
+  background: $info-color;
+  color: $inverted-font-color;
 }
 
-button.bg-fail,
-a.bg-fail,
-.bg-fail,
-table tbody tr.bg-fail,
-table thead tr.bg-fail,
-table.striped thead tr.bg-fail,
-table.striped tbody tr.bg-fail
+button.M-bg--info:hover,
+input[type="submit"].M-bg--info:hover,
+a.M-bg--info:hover{
+  background: $info-color_lightened;
+}
+
+button.M-bg--warn,
+a.M-bg--warn,
+input[type="submit"].M-bg--warn,
+.M-bg--warn,
+table tbody tr.M-bg--warn,
+table thead tr.M-bg--warn,
+table.M-table--striped thead tr.M-bg--warn,
+table.M-table--striped tbody tr.M-bg--warn{
+  background: $warn-color;
+}
+
+button.M-bg--warn:hover,
+a.M-bg--warn:hover,
+input[type="submit"].M-bg--warn:hover {
+  background: $warn-color_lightened;
+}
+
+button.M-bg--fail,
+a.M-bg--fail,
+.M-bg--fail,
+table tbody tr.M-bg--fail,
+table thead tr.M-bg--fail,
+table.M-table--striped thead tr.M-bg--fail,
+table.M-table--striped tbody tr.M-bg--fail
  {
-  background: $bg-fail-color;
+  background: $fail-color;
+  color: $inverted-font-color;
 }
 
-button.bg-disabled,
-a.bg-disabled,
-.bg-disabled,
-table tbody tr.bg-disabled,
-table thead tr.bg-disabled,
-table.striped thead tr.bg-disabled,
-table.striped tbody tr.bg-disabled{
+button.M-bg--fail:hover,
+a.M-bg--fail:hover,
+input[type="submit"].M-bg--fail:hover{
+    background: $fail-color_lightened;
+
+}
+
+
+button.M-bg--disabled,
+a.M-bg--disabled,
+.M-bg--disabled,
+table tbody tr.M-bg--disabled,
+table thead tr.M-bg--disabled,
+table.M-table--striped thead tr.M-bg--disabled,
+table.M-table--striped tbody tr.M-bg--disabled{
   background: $bg-disabled-color;
   opacity: $bg-disabled-opacity;
 }
 
-.ez-2-col {
-    margin: 0;
-		display: inline-block;
-		width: 50%;
-    vertical-align: middle;
-    position: relative;
-    z-index: 7;
-
-		+ .ez-2-col{
-      padding-left: .1em;
-			margin-left: -.30rem !important;
-      z-index: 6;
-		}
-
-    &.long-col {
-      width: 75%
-    }
-
-    &.short-col{
-      width: 25%
-    }
+button.M-bg--primary,
+a.M-bg--primary,
+.M-bg--primary,
+table tbody tr.M-bg--primary,
+table thead tr.M-bg--primary,
+table.M-table--striped thead tr.M-bg--primary,
+table.M-table--striped tbody tr.M-bg--primary{
+  background: $primary-color;
+  color: $inverted-font-color;
 }

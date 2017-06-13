@@ -4,7 +4,7 @@ $lg-screen:   1000px;
 
 $container-content-max-width: 960px;
 
-$font-stack:  'Libre Franklin', 'Helvetica Neue', 'Helvetica', sans-serif;
+$font-stack:  'Libre Franklin', 'Helvetica Neue', 'Helvetica', 'Calibri', sans-serif;
 $default-font-color: #111;
 
 // Color Scheme Variables
@@ -24,6 +24,8 @@ $light-gray-translucent: rgba(210, 215, 211, .5);
 $med-gray: rgba(191, 191, 191, 1);
 $med-gray-translucent: rgba(191, 191, 191, .5);
 
+$light-text-shadow : 1px 1px 1px rgba(0,0,0, .1);
+$dark-text-shadow : 1px 1px 1px rgba(0,0,0, .45);
 // Import partials from `sass_dir` (defaults to `_sass`)
 
 $code-color: #96281B;
@@ -33,6 +35,11 @@ $success-color: #019875;
 $info-color:    #5C97BF;
 $warn-color:    #F4B350;
 $fail-color:    #E26A6A;
+
+$success-color_lightened: #34CBA8;
+$info-color_lightened:    #8FCAF2;
+$warn-color_lightened:    #FFE683;
+$fail-color_lightened: #FF9D9D;
 
 $bg-success-color: #d8f6f2;
 $bg-info-color:    #cfe7fb;
