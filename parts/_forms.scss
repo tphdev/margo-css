@@ -47,7 +47,6 @@ textarea{
 
 .M-form-group{
   display: block;
-
   input[type='text'],
   input[type='email'],
   input[type='password'],
@@ -74,6 +73,8 @@ textarea{
 
  .M-form-group__field{
    display: inline-block;
+   padding: 0 .25rem;
+
    .M-form-group__field_label{
      display: block;
      font-weight: 700;
@@ -88,7 +89,7 @@ textarea{
    textarea.M-form-group__field_input{
      display: block;
    }
- }
+}
 
 //Checkbox Settings
 //=======================
